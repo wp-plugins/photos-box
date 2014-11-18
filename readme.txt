@@ -18,8 +18,6 @@ The plugin allows displaying galleries within the following views:
 *	Popup
 *	Slideshow Popup
 
-== Supported languages ==
-
 == Installation ==
 
 #### Thank you for your interest in Photo Gallery.  
