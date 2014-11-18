@@ -42,7 +42,7 @@ e.g.
 1.  Photo Gallery - Manual
 
 == Frequently Asked Questions == 
-If any problem occurs, please contact us at  [info@web-dorado.com](mailto:info@web-dorado.com).
+If any problem occurs, please contact us at [Hoa Lu](mailto:demoswebsites@gmail.com).
 
 == Upgrade Notice ==
 
