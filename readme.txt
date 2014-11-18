@@ -40,6 +40,7 @@ e.g.
 
 == Screenshots ==
 1.  Photo Gallery - Manual
+For example, `/assets/photos-box-manual.png`
 
 == Frequently Asked Questions == 
 If any problem occurs, please contact us at [Hoa Lu](mailto:demoswebsites@gmail.com).
