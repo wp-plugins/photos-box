@@ -37,8 +37,8 @@ e.g.
 
 
 == Screenshots ==
-1.  Photo Gallery - Manual
-For example, `/assets/photos-box-manual.png`
+1. Photos Box - Manual
+2. Photos Box - Setting
 
 == Upgrade Notice ==
 
