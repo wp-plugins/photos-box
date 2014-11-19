@@ -1,9 +1,7 @@
 === Plugin Name ===
 Contributors: demoswebsites
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3N8HM67ZTCJD6
-Tags: photo, photo gallery, image gallery, gallery, galleries,  wordpress gallery plugin, images gallery, best gallery plugin, free photo gallery, wp gallery, 
-wordpress gallery, website gallery, best gallery, picture, pictures, gallery popup, photo album, photogallery, image, images, photos,  gallery colorbox, 
-wordpress photo gallery plugin, wp gallery plugins, responsive wordpress photo gallery, media, image album, galleria, galerie, galeri
+Tags: photo, photo gallery, image gallery, gallery, galleries,  wordpress gallery plugin, images gallery, best gallery plugin, free photo gallery, wp gallery, wordpress gallery, website gallery, best gallery, picture, pictures, gallery popup, photo album, photogallery, image, images, photos,  gallery colorbox, wordpress photo gallery plugin, wp gallery plugins, responsive wordpress photo gallery, media, image album, galleria, galerie, galeri, jquery colorbox, jquery
 Requires at least: 3.0
 Tested up to: 4.0
 Stable tag: 1.0.1
