@@ -22,6 +22,7 @@ function photos_box_shortcode($val, $attr){
 		
 		// gallery_hp_shortcode
 		'use_background' => 0,
+		'show_title' => 1,
 		'type' => '',
 	), $attr));
 	
@@ -59,7 +60,9 @@ function photos_box_shortcode($val, $attr){
 				} else { 
 					$output .= wp_get_attachment_image( $attachment->ID, 'gallery-thumb' );
 				}
-				$output .= '<span class="image_title">'.$attachment->post_title.'</span>';
+				if( $show_title ){
+					$output .= '<span class="image_title">'.$attachment->post_title.'</span>';
+				}
 				$output .= '</a>';
 			$output .= '</div>';
 			
@@ -84,9 +87,15 @@ if ( ! function_exists( 'main_setup' ) ) :
  * Main setup.
  */
 function photos_box_setup() {
+	extract(shortcode_atts(array(
+		'disable_style'	=> 0,
+	), (array)get_option('photos_box_display')));
+	
 	// load script jquery colorbox
 	wp_enqueue_style( 'photos-box-style', WP_PB_URL. 'media/colorbox.css');
-	wp_enqueue_style( 'photos-box-style-site', WP_PB_URL. 'media/site.css');
+	
+	if( $disable_style == 0 )
+		wp_enqueue_style( 'photos-box-style-site', WP_PB_URL. 'media/site.css');
 	wp_enqueue_script( 'photos-box-script', WP_PB_URL. 'media/jquery.colorbox-min.js', array('jquery'), '' , false );
 }
 endif; // main_setup

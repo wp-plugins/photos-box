@@ -16,15 +16,13 @@ function photos_box_gallery_setting(){
 				<option value="photosbox">Photos Box</option>
 			</select>
 		</label>
-		<?php /*/?>
 		<label class="setting">
-			<span><?php _e('Use Background'); ?></span>
-			<select data-setting="use_background">
+			<span><?php _e('Show Title'); ?></span>
+			<select data-setting="show_title">
 				<option value="0">No</option>
 				<option value="1">Yes</option>
 			</select>
 		</label>
-		<?php /*/?>
 	</script>
 	<script>
 		jQuery(document).ready(function(){
@@ -32,7 +30,7 @@ function photos_box_gallery_setting(){
 			// gallery settings list; $.extend should work as well...
 			_.extend(wp.media.gallery.defaults, {
 				type: 'default',
-				use_background: 0
+				show_title: 1
 			});
 
 			// merge default gallery settings template with yours

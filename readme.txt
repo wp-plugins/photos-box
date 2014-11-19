@@ -6,7 +6,7 @@ wordpress gallery, website gallery, best gallery, picture, pictures, gallery pop
 wordpress photo gallery plugin, wp gallery plugins, responsive wordpress photo gallery, media, image album, galleria, galerie, galeri
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,9 +41,18 @@ e.g.
 For example, `/assets/photos-box-manual.png`
 
 == Upgrade Notice ==
-1. This version is new;
+
+= 1.0.1 =
+* Upgrade features.
+
+= 1.0.0 =
+* This version is new;
 
 == Changelog ==
+
+= 1.0.1 =
+* Add Feature: show/hide title of media.
+* Add Setting: disable style of photos box.
 
 = 1.0.0 =
 * The first version.
