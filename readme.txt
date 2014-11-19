@@ -12,9 +12,9 @@ Photos Box is an advanced plugin with a list of options for gallery.
 
 == Description ==
 
-The plugin allows displaying galleries within the following views: 
-*	Popup
-*	Slideshow Popup
+= The plugin allows displaying galleries within the following views: =
+* Popup
+* Slideshow Popup
 
 == Installation ==
 
