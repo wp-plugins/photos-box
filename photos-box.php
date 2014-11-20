@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Photos Box
-Description: Display Gallery Popup
+Description: Photos Box is an advanced plugin with a list of options for gallery. View Popup, Slideshow Popup
 Plugin URI:
 Author: Hoa Lu
 Author URI:
