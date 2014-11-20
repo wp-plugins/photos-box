@@ -55,10 +55,10 @@ function photos_box_shortcode($val, $attr){
 			$output .= '<div class="gallery-image gallery-image-'.$j.'">';				
 				$output .= '<a class="photosbox" rel="gallery'.$instance.'" title="'.$attachment->post_title.'" href="'.$attachment->guid.'">';
 				if( $use_background == 1 ){
-					$image_srcs = wp_get_attachment_image_src( $attachment->ID, 'gallery-thumb' ); // returns an array
+					$image_srcs = wp_get_attachment_image_src( $attachment->ID, $size ); // returns an array
 					$output .= '<span class="image_thumb" style="background-image:url('.$image_srcs[0].');"></span>';
 				} else { 
-					$output .= wp_get_attachment_image( $attachment->ID, 'gallery-thumb' );
+					$output .= wp_get_attachment_image( $attachment->ID, $size );
 				}
 				if( $show_title ){
 					$output .= '<span class="image_title">'.$attachment->post_title.'</span>';
