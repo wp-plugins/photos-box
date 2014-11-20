@@ -39,6 +39,7 @@ e.g.
 == Upgrade Notice ==
 
 = 1.0.1 =
+* Fix size thumbnail.
 * Upgrade features.
 
 = 1.0.0 =
