@@ -1,0 +1,16 @@
+.gallery-photos-box{ }
+.gallery-photos-box .gallery-row{ padding: 0 0 15px; }
+.gallery-photos-box .gallery-image{ float:left; width: 200px; padding-right: 10px; box-sizing: border-box; }
+.gallery-photos-box .gallery-image img{ max-width: 100%; }
+
+.gallery-columns-1 .gallery-image{ float:none; width: 100%; padding-right: 0; }
+.gallery-columns-2 .gallery-image{ width: 48%; padding-right: 2%; }
+.gallery-columns-3 .gallery-image{ width: 32%; padding-right: 2%; }
+.gallery-columns-4 .gallery-image{ width: 24%; padding-right: 1%; }
+.gallery-columns-5 .gallery-image{ width: 18%; padding-right: 2%; }
+
+.gallery-columns-5 .gallery-image-5,
+.gallery-columns-4 .gallery-image-4,
+.gallery-columns-3 .gallery-image-3,
+.gallery-columns-3 .gallery-image-3,
+.gallery-columns-2 .gallery-image-2{ padding-right: 0; }
