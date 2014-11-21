@@ -38,14 +38,19 @@ e.g.
 
 == Upgrade Notice ==
 
-= 1.0.1 =
+= 1.0.2 =
 * Fix size thumbnail.
+
+= 1.0.1 =
 * Upgrade features.
 
 = 1.0.0 =
 * This version is new;
 
 == Changelog ==
+
+= 1.0.2 =
+* Fix size thumbnail.
 
 = 1.0.1 =
 * Add Feature: Show/Hide title of media.
