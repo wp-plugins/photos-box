@@ -32,6 +32,8 @@ e.g.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to edit gallery in media popup.
 
+If any problem occurs, please contact us at [Hoa Lu](mailto:demoswebsites@gmail.com).
+
 == Screenshots ==
 1. Photos Box - Manual
 2. Photos Box - Setting
