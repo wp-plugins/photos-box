@@ -18,7 +18,7 @@ Photos Box is an advanced plugin with a list of options for gallery.
 
 == Installation ==
 
-#### Thank you for your interest in Photo Gallery.  
+#### Thank you for your interest in Photos Box.  
 
 ### Minimum requirements.  
 *   Wordpress 3.0+  
