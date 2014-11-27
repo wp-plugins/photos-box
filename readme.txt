@@ -18,7 +18,7 @@ Photos Box is an advanced plugin with a list of options for gallery.
 * Auto Popup In Home Page
 
 
-[Demo](photosbox.tk)
+[Demo](http://photosbox.tk)
 
 
 == Installation ==
