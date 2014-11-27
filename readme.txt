@@ -38,18 +38,10 @@ If any problem occurs, please contact us at [Hoa Lu](mailto:demoswebsites@gmail.
 1. Photos Box - Manual
 2. Photos Box - Setting
 
-== Upgrade Notice ==
-
-= 1.0.2 =
-* Fix size thumbnail.
-
-= 1.0.1 =
-* Upgrade features.
-
-= 1.0.0 =
-* This version is new;
-
 == Changelog ==
+
+= 1.0.3 =
+* Add Feature: Show Auto Popup Image in Home Page
 
 = 1.0.2 =
 * Fix size thumbnail.

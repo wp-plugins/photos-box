@@ -1,5 +1,5 @@
 <?php
-
+defined('ABSPATH') or die;
 
 function photos_box_gallery_setting(){
 

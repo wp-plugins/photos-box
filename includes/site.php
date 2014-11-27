@@ -1,4 +1,5 @@
 <?php
+defined('ABSPATH') or die;
 /*
  * 
  */
@@ -102,6 +103,10 @@ endif; // main_setup
 add_action( 'after_setup_theme', 'photos_box_setup' );
 
 function photos_box_setup_colorbox() {
+	extract(shortcode_atts(array(
+		'disable_style'	=> 0,
+		'autopopup_media' => 0,
+	), (array)get_option('photos_box_display')));
 ?><script type="text/javascript">
 (function($){
 	$('a.photosbox').each(function(){
@@ -118,6 +123,19 @@ function photos_box_setup_colorbox() {
 			slideshowStop: " " 
 		});
 	});
+	<?php if( is_home() && $autopopup_media>0 ):
+		$image_attributes = wp_get_attachment_image_src($autopopup_media,'full');
+	?>
+	$('<a href="<?php echo $image_attributes[0];?>" >').colorbox({
+		photo: true,
+		maxWidth:"95%",
+		maxHeight:"95%",
+		open: true,
+		onComplete: function(){
+			// $('#cboxLoadedContent').append($('#autopopup-content a'));
+		}
+	});
+	<?php endif;?>
 })(jQuery);
 </script><?php
 }
