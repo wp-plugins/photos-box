@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: image, images, image gallery, images gallery, gallery, galleries, photo, photo gallery, wordpress gallery plugin, best gallery plugin, photo gallery, wp gallery, wordpress gallery, website gallery, best gallery, picture, pictures, gallery popup, photo album, photos, gallery colorbox, wordpress photo gallery plugin, wp gallery plugins, photo gallery, media, image album, galleria, galerie, galeri, jquery colorbox, jquery
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
