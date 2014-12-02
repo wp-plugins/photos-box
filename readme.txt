@@ -19,7 +19,7 @@ Photos Box is an advanced plugin with a list of options for gallery.
 
 
 [Demo](http://photosbox.tk)
-
+[Gallery](http://photosbox.tk/gallery/)
 
 == Installation ==
 
