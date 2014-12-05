@@ -15,7 +15,7 @@ Photos Box is an advanced plugin with a list of options for gallery.
 = The plugin allows displaying galleries within the following views: =
 * Popup
 * Slideshow Popup
-* Auto Popup In Home Page ( Can set times auto popup )
+* Auto Popup In Home Page ( You can set times auto popup )
 
 = Example =
 
