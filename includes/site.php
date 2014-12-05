@@ -106,8 +106,10 @@ function photos_box_setup_colorbox() {
 	extract(shortcode_atts(array(
 		'disable_style'	=> 0,
 		'autopopup_media' => 0,
+		'autopopup_times' => 1000,
 	), (array)get_option('photos_box_display')));
-?><script type="text/javascript">
+	
+?><script type="text/javascript">/* <![CDATA[ */
 (function($){
 	$('a.photosbox').each(function(){
 		var rel = this.rel || '';
@@ -123,20 +125,37 @@ function photos_box_setup_colorbox() {
 			slideshowStop: " " 
 		});
 	});
-	<?php if( is_home() && $autopopup_media>0 ):
+	<?php if( $autopopup_media>0 && is_home() ):
 		$image_attributes = wp_get_attachment_image_src($autopopup_media,'full');
 	?>
-	$('<a href="<?php echo $image_attributes[0];?>" >').colorbox({
-		photo: true,
-		maxWidth:"95%",
-		maxHeight:"95%",
-		open: true,
-		onComplete: function(){
-			// $('#cboxLoadedContent').append($('#autopopup-content a'));
+	function setCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+d.toUTCString();
+		document.cookie = cname + "=" + cvalue + "; " + expires;
+	}
+	function getCookie(cname,cdefault) {
+		var name = cname + "=";
+		var ca = document.cookie.split(';');
+		for(var i=0; i<ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0)==' ') c = c.substring(1);
+			if (c.indexOf(name) != -1) return c.substring(name.length,c.length);
 		}
-	});
+		return cdefault!=null?cdefault:"";
+	}
+	var t = parseInt( getCookie('photos-box-autopopup',0) );
+	if( t < <?php echo (int)$autopopup_times;?> ){
+		setCookie('photos-box-autopopup', t+1, 1);
+		$('<a href="<?php echo $image_attributes[0];?>">').colorbox({
+			photo: true,
+			maxWidth:"95%",
+			maxHeight:"95%",
+			open: true
+		});
+	}
 	<?php endif;?>
 })(jQuery);
-</script><?php
+/* ]]> */</script><?php
 }
 add_action('print_footer_scripts', 'photos_box_setup_colorbox', 99 );

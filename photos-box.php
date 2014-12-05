@@ -25,9 +25,9 @@ if( is_admin() ){
 	if( $action == 'edit' ){
 		require WP_PB_PATH_INCLUDES.'/admin.php';
 	}
-	if( $page == 'photos-box-setting' ){
-		require WP_PB_PATH_INCLUDES.'/setting.php';
-	}
+	
+	require WP_PB_PATH_INCLUDES.'/setting.php';
+	
 } else {
 	require WP_PB_PATH_INCLUDES.'/site.php';
 }
