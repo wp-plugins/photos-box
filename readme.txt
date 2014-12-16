@@ -48,7 +48,7 @@ If any problem occurs, please contact us at [Hoa Lu](mailto:demoswebsites@gmail.
 == Changelog ==
 
 = 1.0.4 =
-* Add Setting: Setting times auto popup
+* Add Setting: Setting times auto popup.
 * Fix save setting.
 
 = 1.0.3 =
