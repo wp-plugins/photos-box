@@ -54,6 +54,7 @@ function photos_box_setting_display(){
 				<p>
 					<input value="<?php echo $autopopup_media;?>" type="hidden" name="photos_box_display[autopopup_media]" id="photos_box_display_image_id" />
 					<button id="upload_image_button">Choose Image</button>
+					<button id="remove_image_button">Remove Image</button>
 				</p>
 				<p>
 					<label for="photos_box_display_autopopup_times">Auto popup times</label>
@@ -78,8 +79,8 @@ function photos_box_links(){
 ?>
 	<div class="photos_box_links clearfix">
 		<ul>
-			<li><a target="_blank" href="http://photosbox.tk/gallery/">Demo</a></li>
-			<li><a target="_blank" href="http://photosbox.tk/documents/">Help</a></li>
+			<li><a target="_blank" href="https://photosbox.tk/gallery/">Demo</a></li>
+			<li><a target="_blank" href="https://photosbox.tk/documents/">Help</a></li>
 			<li><a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3N8HM67ZTCJD6">Donate to this Plugin</a></li>
 		</ul>
 	</div>

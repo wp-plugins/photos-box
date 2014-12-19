@@ -1,6 +1,4 @@
 jQuery(document).ready(function($){
-	
-		
 	var tgm_media_frame_img,
 		clicked_on_imgbtn = false;
     $(document.body).on('click.tgmOpenMediaManager', '#upload_image_button', function(e){
@@ -35,12 +33,16 @@ jQuery(document).ready(function($){
         tgm_media_frame_img.open();
     });
 	
+	$('#remove_image_button').click(function(e) {
+		e.preventDefault();
+		$('#photos_box_display_image_id').attr('value','');
+		$('#photos_box_display_image_thumb').html('');
+	});
 	$('#upload_image_button').click(function() {
 		formfield = jQuery('#photos_box_display_image_id').attr('name');
 		clicked_on_imgbtn = true;
 		tb_show('Add Image', 'media-upload.php?type=image&amp;TB_iframe=true');
 		return false;
 	});
-
 
 });
