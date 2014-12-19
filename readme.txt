@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: demoswebsites
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3N8HM67ZTCJD6
-Tags: image, images, gallery, galleries, photo, photos, picture, pictures, popup, auto popup, gallery colorbox, photo gallery, media, image album, galleria, galerie, galeri, jquery colorbox, jquery, colorbox, ads, slideshow popup
+Tags: image, images, gallery, galleries, photo, photos, picture, pictures, popup, auto popup, gallery colorbox, photo gallery, media, image album, galleria, galerie, galeri, jquery colorbox, jquery, colorbox, ads, slideshow popup, photo box, photos box
 Requires at least: 3.5
 Tested up to: 4.1
 Stable tag: 1.0.5
