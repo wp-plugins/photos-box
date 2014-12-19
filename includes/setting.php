@@ -40,7 +40,6 @@ function photos_box_setting_display(){
 		<?php screen_icon() ?>
 		<h2>Photos Box</h2>
 		<?php photos_box_links(); ?>
-		<br />
 		<div class="photos_box_advanced clearfix">
 			<h3>Settings</h3>
 			<form action="options.php" method="post">
@@ -60,7 +59,6 @@ function photos_box_setting_display(){
 					<label for="photos_box_display_autopopup_times">Auto popup times</label>
 					<input value="<?php echo $autopopup_times;?>" type="text" name="photos_box_display[autopopup_times]" id="photos_box_display_autopopup_times" />
 				</p>
-				
 				<?php submit_button(); ?>
 			</form>
 		</div>
