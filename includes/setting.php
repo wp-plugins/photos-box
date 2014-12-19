@@ -39,19 +39,12 @@ function photos_box_setting_display(){
 	<div class="wrap photos_box_settings clearfix">
 		<?php screen_icon() ?>
 		<h2>Photos Box</h2>
-		<div class="photos_box_links clearfix">
-			<ul>
-				<li>
-					<a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3N8HM67ZTCJD6">Donate to this Plugin</a>
-				</li>
-			</ul>
-		</div>
+		<?php photos_box_links(); ?>
 		<br />
 		<div class="photos_box_advanced clearfix">
 			<h3>Settings</h3>
 			<form action="options.php" method="post">
 				<?php settings_fields('photos_box_settings' ); ?>
-				
 				<p>
 					<input value="1" type="checkbox" name="photos_box_display[disable_style]" id="photos_box_display_disable_style" <?php echo checked( 1, $disable_style, false );?>/>
 					<label for="photos_box_display_disable_style">Disable Style</label>
@@ -76,13 +69,19 @@ function photos_box_setting_display(){
 			<br />
 			<br />
 		</div>
-		<div class="photos_box_links clearfix">
-			<ul>
-				<li>
-					<a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3N8HM67ZTCJD6">Donate to this Plugin</a>
-				</li>
-			</ul>
-		</div>		
+		<?php photos_box_links(); ?>
+	</div>
+<?php
+}
+
+function photos_box_links(){
+?>
+	<div class="photos_box_links clearfix">
+		<ul>
+			<li><a target="_blank" href="https://photosbox.tk/gallery/">Demo</a></li>
+			<li><a target="_blank" href="https://photosbox.tk/documents/">Help</a></li>
+			<li><a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3N8HM67ZTCJD6">Donate to this Plugin</a></li>
+		</ul>
 	</div>
 <?php
 }
