@@ -1,0 +1,12 @@
+.photos_box_settings img{
+	max-width: 100%;
+}
+.photos_box_settings li{
+	display: block;
+	float: left;
+	padding-right: 15px;
+	line-height: 30px;
+}
+	.photos_box_settings li img{
+		vertical-align: middle;
+	}
