@@ -77,9 +77,9 @@ function photos_box_links(){
 ?>
 	<div class="photos_box_links clearfix">
 		<ul>
-			<li><a target="_blank" href="https://photosbox.tk/gallery/">Demo</a></li>
-			<li><a target="_blank" href="https://photosbox.tk/documents/">Help</a></li>
-			<li><a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3N8HM67ZTCJD6">Donate to this Plugin</a></li>
+			<li class="first"><a target="_blank" href="http://photosbox.tk/gallery/">Demo</a></li>
+			<li><a target="_blank" href="http://photosbox.tk/documents/">Help</a></li>
+			<li><a target="_blank" href="http://photosbox.tk/donate/">Donate</a></li>
 		</ul>
 	</div>
 <?php
