@@ -47,6 +47,9 @@ If any problem occurs, please read [Document](http://photosbox.tk/documents).
 
 == Changelog ==
 
+= 1.0.5 =
+* Update Setting.
+
 = 1.0.4 =
 * Add Setting: Setting times auto popup.
 * Fix save setting.
