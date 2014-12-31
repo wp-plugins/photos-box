@@ -21,6 +21,7 @@ Photos Box is an advanced plugin with a list of options for gallery. Support pop
 
 * [Auto Popup](http://photosbox.tk)
 * [Gallery](http://photosbox.tk/gallery/)
+* [Donate](http://photosbox.tk/donate/)
 
 
 == Installation ==
