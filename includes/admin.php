@@ -25,7 +25,7 @@ function photos_box_gallery_setting(){
 		</label>
 		<label class="setting">
 			<span><?php _e('Slideshow Speed'); ?></span>
-			<input data-setting="slideshowSpeed" type="text" value="2500"/>
+			<input data-setting="slideshow_speed" type="text" value="" style="width:100px;"/>
 		</label>
 	</script>
 	<script>
@@ -35,7 +35,7 @@ function photos_box_gallery_setting(){
 			_.extend(wp.media.gallery.defaults, {
 				type: 'default',
 				show_title: 1,
-				slideshowSpeed: 2500
+				slideshow_speed: 2500
 			});
 
 			// merge default gallery settings template with yours

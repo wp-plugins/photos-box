@@ -25,7 +25,7 @@ function photos_box_shortcode($val, $attr){
 		'use_background' => 0,
 		'show_title' => 1,
 		'type' => '',
-		'slideshowSpeed' => 2500,
+		'slideshow_speed' => 2500,
 	), $attr));
 	
 	if( $type != 'photosbox' ) return '';
@@ -50,7 +50,7 @@ function photos_box_shortcode($val, $attr){
 		$j = 0;
 		
 		$output .= '<div id="gallery-'.$instance.'"'
-					.' data-slideshowSpeed="'.$slideshowSpeed.'" '
+					.' data-slideshowSpeed="'.$slideshow_speed.'" '
 					.' class="gallery-photos-box gallery galleryid-'.$id.' gallery-columns-'.$columns.' clearfix">';
 		$output .= '<div class="gallery-row clearfix">';
 		foreach($attachments as $i => $attachment){
@@ -114,7 +114,7 @@ function photos_box_setup_colorbox() {
 ?><script type="text/javascript">/* <![CDATA[ */
 (function($){
 	$('.gallery-photos-box').each(function(){
-		var slideshowSpeed = this.getAttribute('data-slideshowSpeed')!=null?this.getAttribute('data-slideshowSpeed'):2500;
+		var slideshow_speed = this.getAttribute('data-slideshowSpeed')!=null?this.getAttribute('data-slideshowSpeed'):2500;
 		$('a.photosbox',this).each(function(){
 			var rel = this.rel || '';		
 			//console.log(rel);
@@ -122,7 +122,7 @@ function photos_box_setup_colorbox() {
 				rel: rel,
 				slideshow: true,
 				slideshowAuto: false,
-				slideshowSpeed: slideshowSpeed,
+				slideshowSpeed: slideshow_speed,
 				maxWidth:"95%",
 				maxHeight:"95%",
 				photo: true,
