@@ -24,8 +24,8 @@ function photos_box_gallery_setting(){
 			</select>
 		</label>
 		<label class="setting">
-			<span><?php _e('Slide Show Speed'); ?></span>
-			<input data-setting="slideshowSpeed" />
+			<span><?php _e('Slideshow Speed'); ?></span>
+			<input data-setting="slideshowSpeed" type="text" value="2500"/>
 		</label>
 	</script>
 	<script>
