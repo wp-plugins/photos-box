@@ -5,7 +5,7 @@ Description: Photos Box is an advanced plugin with a list of options for gallery
 Plugin URI: https://wordpress.org/plugins/photos-box
 Author: Hoa Lu
 Author URI: http://photosbox.tk/
-Version: 1.0.5
+Version: 1.0.6
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */

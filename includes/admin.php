@@ -23,6 +23,10 @@ function photos_box_gallery_setting(){
 				<option value="1">Yes</option>
 			</select>
 		</label>
+		<label class="setting">
+			<span><?php _e('Slide Show Speed'); ?></span>
+			<input data-setting="slideshowSpeed" />
+		</label>
 	</script>
 	<script>
 		jQuery(document).ready(function(){
@@ -30,7 +34,8 @@ function photos_box_gallery_setting(){
 			// gallery settings list; $.extend should work as well...
 			_.extend(wp.media.gallery.defaults, {
 				type: 'default',
-				show_title: 1
+				show_title: 1,
+				slideshowSpeed: 2500
 			});
 
 			// merge default gallery settings template with yours

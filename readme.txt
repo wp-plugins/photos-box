@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: image, images, gallery, galleries, photo, photos, picture, pictures, popup, auto popup, gallery colorbox, photo gallery, media, image album, galleria, galerie, galeri, jquery colorbox, jquery, colorbox, ads, slideshow popup, photo box, photos box
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 1.0.5
+Stable tag: 1.0.5.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,6 +47,10 @@ If any problem occurs, please read [Document](http://photosbox.tk/documents).
 2. Photos Box - Setting
 
 == Changelog ==
+
+= 1.0.5.1 =
+* Update Setting.
+* Add Setting: Slideshow Speed in edit/add gallery.
 
 = 1.0.5 =
 * Update Setting.

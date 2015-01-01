@@ -21,10 +21,11 @@ function photos_box_shortcode($val, $attr){
 		'include'    => '',
 		'exclude'    => '',
 		
-		// gallery_hp_shortcode
+		// photos_box_shortcode
 		'use_background' => 0,
 		'show_title' => 1,
 		'type' => '',
+		'slideshowSpeed' => 2500,
 	), $attr));
 	
 	if( $type != 'photosbox' ) return '';
@@ -48,11 +49,12 @@ function photos_box_shortcode($val, $attr){
 	if( count($attachments) ){
 		$j = 0;
 		
-		$output .= '<div id="gallery-'.$instance.'" class="gallery-photos-box gallery galleryid-'.$id.' gallery-columns-'.$columns.' clearfix">';
+		$output .= '<div id="gallery-'.$instance.'"'
+					.' data-slideshowSpeed="'.$slideshowSpeed.'" '
+					.' class="gallery-photos-box gallery galleryid-'.$id.' gallery-columns-'.$columns.' clearfix">';
 		$output .= '<div class="gallery-row clearfix">';
 		foreach($attachments as $i => $attachment){
 			$j++;
-			//var_dump($image);
 			$output .= '<div class="gallery-image gallery-image-'.$j.'">';				
 				$output .= '<a class="photosbox" rel="gallery'.$instance.'" title="'.$attachment->post_title.'" href="'.$attachment->guid.'">';
 				if( $use_background == 1 ){
@@ -111,18 +113,22 @@ function photos_box_setup_colorbox() {
 	
 ?><script type="text/javascript">/* <![CDATA[ */
 (function($){
-	$('a.photosbox').each(function(){
-		var rel = this.rel || '';
-		//console.log(rel);
-		$(this).colorbox({
-			rel: rel,
-			slideshow: true,
-			slideshowAuto: false,
-			maxWidth:"95%",
-			maxHeight:"95%",
-			photo: true,
-			slideshowStart: " ",
-			slideshowStop: " " 
+	$('.gallery-photos-box').each(function(){
+		var slideshowSpeed = this.getAttribute('data-slideshowSpeed')!=null?this.getAttribute('data-slideshowSpeed'):2500;
+		$('a.photosbox',this).each(function(){
+			var rel = this.rel || '';		
+			//console.log(rel);
+			$(this).colorbox({
+				rel: rel,
+				slideshow: true,
+				slideshowAuto: false,
+				slideshowSpeed: slideshowSpeed,
+				maxWidth:"95%",
+				maxHeight:"95%",
+				photo: true,
+				slideshowStart: " ",
+				slideshowStop: " " 
+			});
 		});
 	});
 	<?php if( $autopopup_media>0 && is_home() ):
