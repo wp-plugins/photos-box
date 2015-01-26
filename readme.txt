@@ -8,7 +8,7 @@ Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Photos Box is an advanced plugin with a list of options for gallery. Support popup image in gallery, slideshow popup. 
+Photos Box is an advanced plugin with a list of options for gallery. Support popup image in gallery, slideshow popup.
 
 == Description ==
 
@@ -19,9 +19,8 @@ Photos Box is an advanced plugin with a list of options for gallery. Support pop
 
 = Example =
 
-* [Auto Popup](http://photosbox.tk)
+* [Auto Popup](http://photosbox.tk) in home page
 * [Gallery](http://photosbox.tk/gallery/)
-* [Donate](http://photosbox.tk/donate/)
 
 
 == Installation ==
@@ -37,10 +36,10 @@ This section describes how to install the plugin and get it working.
 e.g.
 
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to edit gallery in media popup.
+2. Activate the "Photos Box" plugin through the 'Plugins' menu in WordPress
+3. Go to edit gallery in media popup and choose type is "Photos Box".
 
-If any problem occurs, please read [Document](http://photosbox.tk/documents).
+If any problem occurs, please read [Documents](http://photosbox.tk/documents).
 
 == Screenshots ==
 1. Photos Box - Manual
