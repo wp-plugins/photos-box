@@ -48,7 +48,7 @@ If any problem occurs, please read [Documents](http://photosbox.tk/documents).
 == Changelog ==
 
 = 1.0.7 =
-* Update Core.
+* Update Core. 
 
 = 1.0.6 =
 * Update Setting.
