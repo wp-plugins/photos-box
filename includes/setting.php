@@ -66,7 +66,6 @@ function photos_box_setting_display(){
 			<h3>Manual</h3>
 			<p><img src="<?php echo WP_PB_URL_IMAGES.'screenshot-1.png';?>" alt="" /></p>
 			<br />
-			<br />
 		</div>
 		<?php photos_box_links(); ?>
 	</div>
