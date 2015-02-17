@@ -13,4 +13,5 @@ function photos_box_add_options_page() {
 	);
 	
 }
+
 add_action('admin_menu','photos_box_add_options_page');
