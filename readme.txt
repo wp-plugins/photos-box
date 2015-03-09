@@ -18,7 +18,6 @@ Photos Box is an advanced plugin with a list of options for gallery. Support pop
 * Auto Popup In Home Page ( You can set times auto popup )
 
 = Example =
-
 * [Auto Popup](http://photosbox.tk) in home page
 * [Gallery](http://photosbox.tk/gallery/)
 
