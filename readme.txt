@@ -1,9 +1,9 @@
 === Plugin Name ===
 Contributors: demoswebsites
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3N8HM67ZTCJD6
-Tags: popup, auto popup, slideshow popup, image, images, gallery, galleries, photo, photos, picture, pictures, photo gallery, media, galleria, galerie, galeri, jquery colorbox, jquery, colorbox,  photo box, popup colorbox
+Tags: popup, auto popup, slideshow popup, image, images, gallery, galleries, photo, photos, picture, pictures, photo gallery, media, galleria, galerie, galeri, jquery colorbox, jquery, colorbox,  photo box, popup colorbox.
 Requires at least: 3.5
-Tested up to: 4.1
+Tested up to: 4.1.1
 Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
