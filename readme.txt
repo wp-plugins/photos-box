@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: popup, auto popup, slideshow popup, image, images, gallery, galleries, photo, photos, picture, pictures, photo gallery, media, galleria, galerie, galeri, jquery colorbox, jquery, colorbox,  photo box, popup colorbox.
 Requires at least: 3.5
 Tested up to: 4.1.1
-Stable tag: 1.0.7
+Stable tag: 1.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,6 +45,9 @@ If any problem occurs, please read [Documents](http://photosbox.tk/documents).
 2. Photos Box - Setting
 
 == Changelog ==
+
+= 1.0.8 =
+* Fix error set featured image for post, page. 
 
 = 1.0.7 =
 * Update Core. 
