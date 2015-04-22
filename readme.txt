@@ -18,8 +18,8 @@ Photos Box is an advanced plugin with a list of options for gallery. Support pop
 * Auto Popup In Home Page ( You can set times auto popup )
 
 = Example =
-* [Auto Popup](http://photosbox.tk) in home page
-* [Gallery](http://photosbox.tk/gallery/)
+* [Auto Popup](http://photoboxone.com) in home page
+* [Gallery](http://photoboxone.com/gallery/)
 
 
 == Installation ==
@@ -38,7 +38,7 @@ e.g.
 2. Activate the "Photos Box" plugin through the 'Plugins' menu in WordPress
 3. Go to edit gallery in media popup and choose type is "Photos Box".
 
-If any problem occurs, please read [Documents](http://photosbox.tk/documents).
+If any problem occurs, please read [Documents](http://photoboxone.com/documents).
 
 == Screenshots ==
 1. Photos Box - Manual
