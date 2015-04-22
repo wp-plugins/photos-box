@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Photos Box
-Description: Photos Box is an advanced plugin with a list of options for gallery. View Popup, Slideshow Popup
+Plugin Name: Photo Box
+Description: Photo Box is an advanced plugin with a list of options for gallery. View Popup, Slideshow Popup
 Plugin URI: https://wordpress.org/plugins/photos-box
-Author: Hoa Lu
-Author URI: http://photosbox.tk/
-Version: 1.0.8
+Author: De Mo
+Author URI: http://photoboxone.com/
+Version: 1.0.9
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -28,8 +28,8 @@ if( is_admin() ){
 		
 		add_filter("plugin_action_links_".plugin_basename(__FILE__), "photos_box_plugin_actions", 10, 4);
 		function photos_box_plugin_actions( $actions, $plugin_file, $plugin_data, $context ) {
-			array_unshift($actions, "<a href=\"http://photosbox.tk/donate\" target=\"_blank\">".__("Donate")."</a>");
-			array_unshift($actions, "<a href=\"http://photosbox.tk/documents\" target=\"_blank\">".__("Documents")."</a>");
+			array_unshift($actions, "<a href=\"http://photoboxone.com/donate\" target=\"_blank\">".__("Donate")."</a>");
+			array_unshift($actions, "<a href=\"http://photoboxone.com/documents\" target=\"_blank\">".__("Documents")."</a>");
 			array_unshift($actions, "<a href=\"options-general.php?page=photos-box-setting\">".__("Settings")."</a>");
 			return $actions;
 		}
