@@ -27,19 +27,19 @@ jQuery(document).ready(function($){
             var media_attachment = tgm_media_frame_img.state().get('selection').first().toJSON();
 			//console.log(media_attachment);
 			
-            jQuery('#photos_box_display_image_id').val(media_attachment.id);
-			jQuery('#photos_box_display_image_thumb').html('<img src="'+media_attachment.url+'" height=100 alt=""/>');
+            jQuery('#photo_box_display_image_id').val(media_attachment.id);
+			jQuery('#photo_box_display_image_thumb').html('<img src="'+media_attachment.url+'" height=100 alt=""/>');
         });
         tgm_media_frame_img.open();
     });
 	
 	$('#remove_image_button').click(function(e) {
 		e.preventDefault();
-		$('#photos_box_display_image_id').attr('value','');
-		$('#photos_box_display_image_thumb').html('');
+		$('#photo_box_display_image_id').attr('value','');
+		$('#photo_box_display_image_thumb').html('');
 	});
 	$('#upload_image_button').click(function() {
-		formfield = jQuery('#photos_box_display_image_id').attr('name');
+		formfield = jQuery('#photo_box_display_image_id').attr('name');
 		clicked_on_imgbtn = true;
 		tb_show('Add Image', 'media-upload.php?type=image&amp;TB_iframe=true');
 		return false;
