@@ -1,7 +1,7 @@
 <?php
 defined('ABSPATH') or die;
 
-function photos_box_gallery_setting(){
+function photo_box_gallery_setting(){
 
 	// define your backbone template;
 	// the "tmpl-" prefix is required,
@@ -13,7 +13,7 @@ function photos_box_gallery_setting(){
 			<span><?php _e('Type'); ?></span>
 			<select data-setting="type">
 				<option value="default">Default</option>
-				<option value="photosbox">Photos Box</option>
+				<option value="photosbox">Photo Box</option>
 			</select>
 		</label>
 		<label class="setting">
@@ -49,4 +49,4 @@ function photos_box_gallery_setting(){
 	</script>
 	<?php
 }
-add_action('print_media_templates', 'photos_box_gallery_setting' );
+add_action('print_media_templates', 'photo_box_gallery_setting' );

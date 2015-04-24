@@ -3,7 +3,7 @@ defined('ABSPATH') or die;
 /*
  * 
  */
-function photos_box_shortcode($val, $attr){
+function photo_box_shortcode($val, $attr){
 	$post = get_post();
 	
 	static $instance = 0;
@@ -21,7 +21,7 @@ function photos_box_shortcode($val, $attr){
 		'include'    => '',
 		'exclude'    => '',
 		
-		// photos_box_shortcode
+		// photo_box_shortcode
 		'use_background' => 0,
 		'show_title' => 1,
 		'type' => '',
@@ -52,13 +52,13 @@ function photos_box_shortcode($val, $attr){
 		
 		$output .= '<div id="gallery-'.$instance.'"'
 					.' data-slideshowSpeed="'.$slideshow_speed.'" '
-					.' class="gallery-photos-box gallery galleryid-'.$id.' gallery-columns-'.$columns.' clearfix">';
+					.' class="gallery-photo-box gallery-photos-box gallery galleryid-'.$id.' gallery-columns-'.$columns.' clearfix">';
 			$output .= '<div class="gallery-row clearfix">';
 			foreach($attachments as $attachment){
 				$j++;
 				$i++;
 				$output .= '<div class="gallery-image gallery-image-'.$j.' gallery-image-i-'.$i.'">';				
-					$output .= '<a class="photosbox" rel="gallery'.$instance.'" title="'.$attachment->post_title.'" href="'.$attachment->guid.'">';
+					$output .= '<a class="photobox" rel="gallery'.$instance.'" title="'.$attachment->post_title.'" href="'.$attachment->guid.'">';
 					if( $use_background == 1 ){
 						$image_srcs = wp_get_attachment_image_src( $attachment->ID, $size ); // returns an array
 						$output .= '<span class="image_thumb" style="background-image:url('.$image_srcs[0].');"></span>';
@@ -82,7 +82,7 @@ function photos_box_shortcode($val, $attr){
 	}
 	return $output;
 }
-add_filter('post_gallery', 'photos_box_shortcode', 10, 3);
+add_filter('post_gallery', 'photo_box_shortcode', 10, 3);
 
 /*
  * 
@@ -91,33 +91,33 @@ if ( ! function_exists( 'main_setup' ) ) :
 /**
  * Main setup.
  */
-function photos_box_setup() {
+function photo_box_setup() {
 	extract(shortcode_atts(array(
 		'disable_style'	=> 0,
-	), (array)get_option('photos_box_display')));
+	), (array)get_option('photo_box_display')));
 	
 	// load script jquery colorbox
-	wp_enqueue_style( 'photos-box-style', WP_PB_URL. 'media/colorbox.css');
+	wp_enqueue_style( 'photo-box-style', WP_PB_URL. 'media/colorbox.css');
 	
 	if( $disable_style == 0 )
-		wp_enqueue_style( 'photos-box-style-site', WP_PB_URL. 'media/site.css');
-	wp_enqueue_script( 'photos-box-script', WP_PB_URL. 'media/jquery.colorbox-min.js', array('jquery'), '' , false );
+		wp_enqueue_style( 'photo-box-style-site', WP_PB_URL. 'media/site.css');
+	wp_enqueue_script( 'photo-box-script', WP_PB_URL. 'media/jquery.colorbox-min.js', array('jquery'), '' , false );
 }
 endif; // main_setup
-add_action( 'after_setup_theme', 'photos_box_setup' );
+add_action( 'after_setup_theme', 'photo_box_setup' );
 
-function photos_box_setup_colorbox() {
+function photo_box_setup_colorbox() {
 	extract(shortcode_atts(array(
 		'disable_style'	=> 0,
 		'autopopup_media' => 0,
 		'autopopup_times' => 1000,
-	), (array)get_option('photos_box_display')));
+	), (array)get_option('photo_box_display')));
 	
 ?><script type="text/javascript">/* <![CDATA[ */
 (function($){
-	$('.gallery-photos-box').each(function(){
+	$('.gallery-photo-box').each(function(){
 		var slideshow_speed = this.getAttribute('data-slideshowSpeed')!=null?this.getAttribute('data-slideshowSpeed'):2500;
-		$('a.photosbox',this).each(function(){
+		$('a.photobox',this).each(function(){
 			var rel = this.rel || '';		
 			//console.log(rel);
 			$(this).colorbox({
@@ -152,9 +152,9 @@ function photos_box_setup_colorbox() {
 		}
 		return cdefault!=null?cdefault:"";
 	}
-	var t = parseInt( getCookie('photos-box-autopopup',0) );
+	var t = parseInt( getCookie('photo-box-autopopup',0) );
 	if( t < <?php echo (int)$autopopup_times;?> ){
-		setCookie('photos-box-autopopup', t+1, 1);
+		setCookie('photo-box-autopopup', t+1, 1);
 		$('<a href="<?php echo $image_attributes[0];?>">').colorbox({
 			photo: true,
 			maxWidth:"95%",
@@ -166,4 +166,4 @@ function photos_box_setup_colorbox() {
 })(jQuery);
 /* ]]> */</script><?php
 }
-add_action('print_footer_scripts', 'photos_box_setup_colorbox', 99 );
+add_action('print_footer_scripts', 'photo_box_setup_colorbox', 99 );

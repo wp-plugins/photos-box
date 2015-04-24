@@ -6,19 +6,19 @@
 	height: 0;
 	overflow: hidden;
 }
-.photos_box_settings img{
+.photo_box_settings img{
 	max-width: 100%;
 }
-.photos_box_links{
+.photo_box_links{
 	padding-bottom: 10px;
 }
-	.photos_box_links li{
+	.photo_box_links li{
 		display: block;
 		float: left;
 		padding-right: 20px;
 		line-height: 20px;
 	}
-		.photos_box_links li img{
+		.photo_box_links li img{
 			vertical-align: middle;
 		}
 
