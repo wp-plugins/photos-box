@@ -7,7 +7,7 @@ Tested up to: 4.2
 Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Photos Box is an advanced plugin with a list of options for gallery. Support popup image in gallery, slideshow popup.
+Photo Box is an advanced plugin with a list of options for gallery. Support popup image in gallery, slideshow popup.
 == Description ==
 = The plugin allows displaying galleries within the following views: =
 * Popup
@@ -18,7 +18,7 @@ Photos Box is an advanced plugin with a list of options for gallery. Support pop
 * [Gallery](http://photoboxone.com/gallery/)
 
 == Installation ==
-#### Thank you for your interest in Photos Box.  
+#### Thank you for your interest in Photo Box.  
 ### Minimum requirements.  
 *   Wordpress 3.0+  
 *   PHP 5.x  
@@ -26,12 +26,12 @@ Photos Box is an advanced plugin with a list of options for gallery. Support pop
 This section describes how to install the plugin and get it working.
 e.g.
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
-2. Activate the "Photos Box" plugin through the 'Plugins' menu in WordPress
+2. Activate the "Photo Box" plugin through the 'Plugins' menu in WordPress
 3. Go to edit gallery in media popup and choose type is "Photo Box".
 If any problem occurs, please read [Documents](http://photoboxone.com/documents).
 == Screenshots ==
-1. Photos Box - Manual
-2. Photos Box - Setting
+1. Photo Box - Manual
+2. Photo Box - Setting
 == Changelog ==
 = 1.1 =
 * Update core.
@@ -55,6 +55,6 @@ If any problem occurs, please read [Documents](http://photoboxone.com/documents)
 * Fix size thumbnail.
 = 1.0.1 =
 * Add Feature: Show/Hide title of media.
-* Add Setting: Disable Style of photos box.
+* Add Setting: Disable Style of photo box.
 = 1.0.0 =
 * The first version.
