@@ -46,36 +46,38 @@ function photos_box_shortcode($val, $attr){
 	}
 	
 	$output = '';
-	if( count($attachments) ){
+	if( $count = count($attachments) ){
 		$j = 0;
+		$i = 0;
 		
 		$output .= '<div id="gallery-'.$instance.'"'
 					.' data-slideshowSpeed="'.$slideshow_speed.'" '
 					.' class="gallery-photos-box gallery galleryid-'.$id.' gallery-columns-'.$columns.' clearfix">';
-		$output .= '<div class="gallery-row clearfix">';
-		foreach($attachments as $i => $attachment){
-			$j++;
-			$output .= '<div class="gallery-image gallery-image-'.$j.'">';				
-				$output .= '<a class="photosbox" rel="gallery'.$instance.'" title="'.$attachment->post_title.'" href="'.$attachment->guid.'">';
-				if( $use_background == 1 ){
-					$image_srcs = wp_get_attachment_image_src( $attachment->ID, $size ); // returns an array
-					$output .= '<span class="image_thumb" style="background-image:url('.$image_srcs[0].');"></span>';
-				} else { 
-					$output .= wp_get_attachment_image( $attachment->ID, $size );
+			$output .= '<div class="gallery-row clearfix">';
+			foreach($attachments as $attachment){
+				$j++;
+				$i++;
+				$output .= '<div class="gallery-image gallery-image-'.$j.' gallery-image-i-'.$i.'">';				
+					$output .= '<a class="photosbox" rel="gallery'.$instance.'" title="'.$attachment->post_title.'" href="'.$attachment->guid.'">';
+					if( $use_background == 1 ){
+						$image_srcs = wp_get_attachment_image_src( $attachment->ID, $size ); // returns an array
+						$output .= '<span class="image_thumb" style="background-image:url('.$image_srcs[0].');"></span>';
+					} else { 
+						$output .= wp_get_attachment_image( $attachment->ID, $size );
+					}
+					if( $show_title ){
+						$output .= '<span class="image_title">'.$attachment->post_title.'</span>';
+					}
+					$output .= '</a>';
+				$output .= '</div>';
+				
+				if( $i%$columns==0 && $i<$count ){
+					$output .= '<br style="clear:both;" />';
+					$output .= '</div><div class="gallery-row clearfix">';
+					$j = 0;
 				}
-				if( $show_title ){
-					$output .= '<span class="image_title">'.$attachment->post_title.'</span>';
-				}
-				$output .= '</a>';
-			$output .= '</div>';
-			
-			if( $i%$columns==0 && $i<$count ){
-				$output .= '<br style="clear:both;" />';
-				$output .= '</div><div class="gallery-row clearfix">';
-				$j = 0;
 			}
-		}
-		$output .= '<br style="clear:both;" />';
+			$output .= '<br style="clear:both;" /></div>';
 		$output .= '</div>';
 	}
 	return $output;
