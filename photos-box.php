@@ -3,7 +3,7 @@
 Plugin Name: Photo Box
 Description: Photo Box is an advanced plugin with a list of options for gallery. View Popup, Slideshow Popup
 Plugin URI: https://wordpress.org/plugins/photo-box
-Author: De Mo
+Author: PB One 
 Author URI: http://photoboxone.com/
 Version: 1.1
 License: GPL-2.0+
