@@ -17,6 +17,7 @@ Photo Box is an advanced plugin with a list of options for gallery. Support popu
 = Example =
 * [Home](http://photoboxone.com) in home page
 * [Gallery](http://photoboxone.com/gallery/)
+* [Documents](http://photoboxone.com/category/documents/)
 
 == Installation ==
 #### Thank you for your interest in Photo Box.  
