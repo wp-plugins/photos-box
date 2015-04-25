@@ -8,6 +8,7 @@ Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Photo Box is an advanced plugin with a list of options for gallery. Support popup image in gallery, slide show popup.
+
 == Description ==
 = The plugin allows displaying galleries within the following views: =
 * Popup
