@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: demoswebsites
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3N8HM67ZTCJD6
-Tags: popup, auto popup, slideshow popup, image, images, gallery, galleries, photo, photos, picture, pictures, photo gallery, media, galleria, galerie, galeri, jquery colorbox, jquery, colorbox,  photo box, popup colorbox.
+Tags: popup, auto popup, slide show popup, image, images, gallery, galleries, photo, photos, picture, pictures, photo gallery, media, jquery colorbox, jquery, colorbox,  photo box, popup colorbox.
 Requires at least: 3.5
 Tested up to: 4.2
 Stable tag: 1.1.1
@@ -18,6 +18,7 @@ Photo Box is an advanced plugin with a list of options for gallery. Support popu
 * [Home](http://photoboxone.com) in home page
 * [Gallery](http://photoboxone.com/gallery/)
 * [Documents](http://photoboxone.com/category/documents/)
+* [Donate](http://photoboxone.com/donate/)
 
 == Installation ==
 #### Thank you for your interest in Photo Box.  
