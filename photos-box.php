@@ -26,13 +26,13 @@ if( is_admin() ){
 	
 	if( $plugins ){
 		
-		add_filter("plugin_action_links_".plugin_basename(__FILE__), "photo_box_plugin_actions", 10, 4);
 		function photo_box_plugin_actions( $actions, $plugin_file, $plugin_data, $context ) {
 			array_unshift($actions, "<a href=\"http://photoboxone.com/donate\" target=\"_blank\">".__("Donate")."</a>");
 			array_unshift($actions, "<a href=\"http://photoboxone.com/documents\" target=\"_blank\">".__("Documents")."</a>");
 			array_unshift($actions, "<a href=\"options-general.php?page=photo-box-setting\">".__("Settings")."</a>");
 			return $actions;
 		}
+		add_filter("plugin_action_links_".plugin_basename(__FILE__), "photo_box_plugin_actions", 10, 4);
 	}
 	
 	if( $action == 'edit' ){
