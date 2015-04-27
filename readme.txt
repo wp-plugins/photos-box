@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: demoswebsites
+Contributors: De Mo
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3N8HM67ZTCJD6
 Tags: popup, auto popup, slide show popup, image, images, gallery, galleries, photo, photos, picture, pictures, photo gallery, media, jquery colorbox, jquery, colorbox,  photo box, popup colorbox.
 Requires at least: 3.5
@@ -35,7 +35,10 @@ If any problem occurs, please read [Documents](http://photoboxone.com/category/d
 == Screenshots ==
 1. Photo Box - Manual
 2. Photo Box - Setting
+
 == Changelog ==
+= 1.1.1 =
+* Update core.
 = 1.1 =
 * Update core.
 = 1.0.9 =
