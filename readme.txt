@@ -15,10 +15,9 @@ Photo Box is an advanced plugin with a list of options for gallery. Support popu
 * Slideshow Popup
 * Auto Popup In Home Page ( You can set times auto popup )
 = Example =
-* [Home](http://photoboxone.com) in home page
+* [Home](http://photoboxone.com)
 * [Gallery](http://photoboxone.com/gallery/)
 * [Documents](http://photoboxone.com/category/documents/)
-* [Donate](http://photoboxone.com/donate/)
 
 == Installation ==
 #### Thank you for your interest in Photo Box.  
