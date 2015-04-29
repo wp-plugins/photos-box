@@ -30,6 +30,7 @@ Photo Box is an advanced plugin with a list of options for gallery. Support popu
 *   MySQL 5.x  
 This section describes how to install the plugin and get it working.
 e.g.
+
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
 2. Activate the "Photo Box" plugin through the 'Plugins' menu in WordPress
 3. Go to edit gallery in media popup and choose type is "Photo Box".
