@@ -11,6 +11,7 @@ Photo Box is an advanced plugin with a list of options for gallery. Support popu
 
 == Description ==
 = The plugin allows displaying galleries within the following views: =
+
 * Gallery 
 * Popup
 * Slide show Popup
