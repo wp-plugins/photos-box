@@ -17,7 +17,7 @@ Photo Box is an advanced plugin with a list of options for gallery. Support popu
 * Auto Popup In Home Page ( You can set times auto popup )
 
 = Example =
-* [Home](http://photoboxone.com)
+* [Home](http://photoboxone.com/)
 * [Gallery](http://photoboxone.com/gallery/)
 * [Documents](http://photoboxone.com/category/documents/)
 
