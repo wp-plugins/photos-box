@@ -43,6 +43,7 @@ If any problem occurs, please read [Documents](http://photoboxone.com/category/d
 
 = 1.1 =
 * Update core.
+
 = 1.0.9 =
 * Update site author. 
 = 1.0.8 =
