@@ -4,10 +4,10 @@
 	content: '';
 	clear: both;
 	height: 0;
-	overflow: hidden;
+	overflow: hidden
 }
 .photo_box_settings img{
-	max-width: 100%;
+	max-width: 100%
 }
 .photo_box_links{
 	padding-bottom: 10px;
