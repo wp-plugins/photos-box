@@ -3,7 +3,7 @@ Contributors: PB One
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3N8HM67ZTCJD6
 Tags: popup, auto popup, slide show popup, image, images, gallery, galleries, photo, photos, picture, pictures, photo gallery, media, jquery colorbox, jquery, colorbox,  photo box, popup colorbox, slide show gallery.
 Requires at least: 3.5
-Tested up to: 4.2
+Tested up to: 4.2.1
 Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
