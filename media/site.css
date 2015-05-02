@@ -4,8 +4,8 @@
 .gallery-photos-box .gallery-image{ float:left; width: 200px; padding-right: 10px; box-sizing: border-box}
 .gallery-photos-box .gallery-image img{ max-width: 100%; /* -webkit-border-radius: 10px; border-radius: 10px; overflow: hidden;border: 2px solid #fafafa; */}
 
-.gallery-photos-box.gallery-columns-1 .gallery-image{ float:none; width: 100%; padding-right: 0; }
-.gallery-photos-box.gallery-columns-2 .gallery-image{ width: 48%; padding-right: 2%; }
+.gallery-photos-box.gallery-columns-1 .gallery-image{ float:none; width: 100%; padding-right: 0 }
+.gallery-photos-box.gallery-columns-2 .gallery-image{ width: 48%; padding-right: 2%}
 .gallery-photos-box.gallery-columns-3 .gallery-image{ width: 32%; padding-right: 2%; }
 .gallery-photos-box.gallery-columns-4 .gallery-image{ width: 24%; padding-right: 1%; }
 .gallery-photos-box.gallery-columns-5 .gallery-image{ width: 18%; padding-right: 2%; }
