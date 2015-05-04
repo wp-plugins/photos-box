@@ -46,24 +46,33 @@ If any problem occurs, please read [Documents](http://photoboxone.com/category/d
 
 = 1.0.9 =
 * Update site author. 
+
 = 1.0.8 =
 * Fix error set featured image for post, page. 
+
 = 1.0.7 =
 * Update Core. 
+
 = 1.0.6 =
 * Update Setting.
 * Add Setting: Slideshow Speed in edit/add gallery.
+
 = 1.0.5 =
 * Update Setting.
+
 = 1.0.4 =
 * Add Setting: Setting times auto popup.
 * Fix save setting.
+
 = 1.0.3 =
 * Add Feature: Show Auto Popup Image in Home Page
+
 = 1.0.2 =
 * Fix size thumbnail.
+
 = 1.0.1 =
 * Add Feature: Show/Hide title of media.
 * Add Setting: Disable Style of photo box.
+
 = 1.0.0 =
 * The first version.
