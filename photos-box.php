@@ -16,6 +16,7 @@ define('WP_PB_PATH', dirname(__FILE__) );
 define('WP_PB_PATH_INCLUDES', dirname(__FILE__).'/includes' ); 
 define('WP_PB_URL', plugins_url('', __FILE__).'/' ); 
 define('WP_PB_URL_IMAGES', WP_PB_URL.'images/' ); 
+define('WP_PB_URL_MEDIA', WP_PB_URL.'media/' ); 
 
 if( is_admin() ){
 	require WP_PB_PATH_INCLUDES.'/config.php';
@@ -25,7 +26,6 @@ if( is_admin() ){
 	$plugins = preg_match('/plugins.php/i',$_SERVER['REQUEST_URI']);
 	
 	if( $plugins ){
-		
 		function photo_box_plugin_actions( $actions, $plugin_file, $plugin_data, $context ) {
 			array_unshift($actions, "<a href=\"http://photoboxone.com/donate\" target=\"_blank\">".__("Donate")."</a>");
 			array_unshift($actions, "<a href=\"http://photoboxone.com/documents\" target=\"_blank\">".__("Documents")."</a>");
