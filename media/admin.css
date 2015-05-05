@@ -1,8 +1,6 @@
 .clearfix:before,.clearfix:after{ display: block;content: '';clear: both;height: 0;overflow: hidden}
 .photo_box_settings img{ max-width: 100% }
-.photo_box_links{
-	padding-bottom: 10px
-}
+.photo_box_links{	padding-bottom: 10px}
 	.photo_box_links li{
 		display:block;
 		float:left;
