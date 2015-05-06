@@ -112,11 +112,11 @@ function photo_box_setup_colorbox() {
 		'autopopup_media' => 0,
 		'autopopup_times' => 1000,
 	), (array)get_option('photo_box_display')));
-	
 ?><script type="text/javascript">/* <![CDATA[ */
 (function($){
 	$('.gallery-photo-box').each(function(){
-		var slideshow_speed = this.getAttribute('data-slideshowSpeed')!=null?this.getAttribute('data-slideshowSpeed'):2500;
+		var slideshow_speed = this.getAttribute('data-slideshowSpeed')!=null?this.getAttribute('data-slideshowSpeed'):2500,
+			test = 1;
 		$('a.photobox',this).each(function(){
 			var rel = this.rel || '';		
 			//console.log(rel);
@@ -135,8 +135,7 @@ function photo_box_setup_colorbox() {
 	});
 	<?php if( $autopopup_media>0 && is_home() ):
 		$image_attributes = wp_get_attachment_image_src($autopopup_media,'full');
-	?>
-	function setCookie(cname, cvalue, exdays) {
+	?>function setCookie(cname, cvalue, exdays) {
 		var d = new Date();
 		d.setTime(d.getTime() + (exdays*24*60*60*1000));
 		var expires = "expires="+d.toUTCString();
