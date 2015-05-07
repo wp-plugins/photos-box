@@ -50,8 +50,7 @@ function photo_box_shortcode($val, $attr){
 		$j = 0;
 		$i = 0;
 		
-		$output .= '<div id="gallery-'.$instance.'"'
-					.' data-slideshowSpeed="'.$slideshow_speed.'" '
+		$output .= '<div id="gallery-'.$instance.'" data-slideshowSpeed="'.$slideshow_speed.'" '
 					.' class="gallery-photo-box gallery-photos-box gallery galleryid-'.$id.' gallery-columns-'.$columns.' clearfix">';
 			$output .= '<div class="gallery-row clearfix">';
 			foreach($attachments as $attachment){
