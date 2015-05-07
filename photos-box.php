@@ -18,6 +18,11 @@ define('WP_PB_URL', plugins_url('', __FILE__).'/' );
 define('WP_PB_URL_IMAGES', WP_PB_URL.'images/' ); 
 define('WP_PB_URL_MEDIA', WP_PB_URL.'media/' ); 
 
+include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+if( file_exists( $path_full = ABSPATH . 'wp-content/plugins/photos-box-full/full.php' ) && is_plugin_active( 'photos-box-full/index.php' ) ) {
+	require $path_full;
+}
+
 if( is_admin() ){
 	require WP_PB_PATH_INCLUDES.'/config.php';
 	

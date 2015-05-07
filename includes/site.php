@@ -3,6 +3,7 @@ defined('ABSPATH') or die;
 /*
  * 
  */
+if( !function_exists('photo_box_shortcode') ):
 function photo_box_shortcode($val, $attr){
 	$post = get_post();
 	
@@ -81,15 +82,13 @@ function photo_box_shortcode($val, $attr){
 	}
 	return $output;
 }
+endif;
 add_filter('post_gallery', 'photo_box_shortcode', 10, 3);
 
 /*
  * 
  */
-if ( ! function_exists( 'main_setup' ) ) :
-/**
- * Main setup.
- */
+if ( ! function_exists( 'photo_box_setup' ) ) :
 function photo_box_setup() {
 	extract(shortcode_atts(array(
 		'disable_style'	=> 0,
@@ -105,6 +104,7 @@ function photo_box_setup() {
 endif; // main_setup
 add_action( 'after_setup_theme', 'photo_box_setup' );
 
+if ( ! function_exists( 'photo_box_setup_colorbox' ) ) :
 function photo_box_setup_colorbox() {
 	extract(shortcode_atts(array(
 		'disable_style'	=> 0,
@@ -164,4 +164,5 @@ function photo_box_setup_colorbox() {
 })(jQuery);
 /* ]]> */</script><?php
 }
+endif;
 add_action('print_footer_scripts', 'photo_box_setup_colorbox', 99 );

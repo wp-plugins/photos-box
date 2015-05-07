@@ -3,6 +3,7 @@ defined('ABSPATH') or die;
 
 /* SECTIONS - FIELDS
 ------------------------------------------------------*/
+if( !function_exists('photo_box_init_theme_opotion') ):
 function photo_box_init_theme_opotion() {
 	// 
 	add_settings_section(
@@ -23,10 +24,12 @@ function photo_box_init_theme_opotion() {
 	wp_enqueue_script('photo-box-upload');
 
 }
+endif;
 add_action('admin_init', 'photo_box_init_theme_opotion');
 
 /* CALLBACK
 ------------------------------------------------------*/
+if( !function_exists('photo_box_setting_display') ):
 function photo_box_setting_display(){ 
 	extract(shortcode_atts(array(
 		'disable_style'	=> 0,
@@ -71,7 +74,9 @@ function photo_box_setting_display(){
 	</div>
 <?php
 }
+endif;
 
+if( !function_exists('photo_box_links') ):
 function photo_box_links(){
 ?>
 	<div class="photo_box_links clearfix">
@@ -83,3 +88,4 @@ function photo_box_links(){
 	</div>
 <?php
 }
+endif;

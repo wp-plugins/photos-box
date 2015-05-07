@@ -1,6 +1,8 @@
 <?php
+
 defined('ABSPATH') or die;
 
+if( !function_exists('photo_box_gallery_setting') ):
 function photo_box_gallery_setting(){
 
 	// define your backbone template;
@@ -49,4 +51,5 @@ function photo_box_gallery_setting(){
 	</script>
 	<?php
 }
+endif;
 add_action( 'print_media_templates', 'photo_box_gallery_setting' );
