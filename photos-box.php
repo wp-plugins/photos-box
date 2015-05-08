@@ -5,7 +5,7 @@ Description: Photo Box is a free plugin with a list of options for gallery. View
 Plugin URI: https://wordpress.org/plugins/photo-box
 Author: PB One 
 Author URI: http://photoboxone.com/
-Version: 1.1.1
+Version: 1.1.2
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -16,7 +16,7 @@ define('WP_PB_PATH', dirname(__FILE__) );
 define('WP_PB_PATH_INCLUDES', dirname(__FILE__).'/includes' ); 
 define('WP_PB_URL', plugins_url('', __FILE__).'/' ); 
 define('WP_PB_URL_IMAGES', WP_PB_URL.'images/' ); 
-define('WP_PB_URL_MEDIA', WP_PB_URL.'media/' ); 
+define('WP_PB_URL_MEDIA', WP_PB_URL.'media/' );
 
 include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 if( file_exists( $path_full = ABSPATH . 'wp-content/plugins/photos-box-full/full.php' ) && is_plugin_active( 'photos-box-full/index.php' ) ) {
@@ -29,6 +29,7 @@ if( is_admin() ){
 	$action = isset($_GET['action'])?$_GET['action']:'';
 	$page 	= isset($_GET['page'])?$_GET['page']:'';
 	$plugins = preg_match('/plugins.php/i',$_SERVER['REQUEST_URI']);
+	$options = preg_match('/options/i',$_SERVER['REQUEST_URI']);
 	
 	if( $plugins ){
 		function photo_box_plugin_actions( $actions, $plugin_file, $plugin_data, $context ) {
@@ -42,11 +43,9 @@ if( is_admin() ){
 	
 	if( $action == 'edit' ){
 		require WP_PB_PATH_INCLUDES.'/admin.php';
-	}
-	
-	if( $page == 'photo-box-setting' ){
+	} else if( $options ){
 		require WP_PB_PATH_INCLUDES.'/setting.php';
-	}
+	} 
 	
 } else {
 	require WP_PB_PATH_INCLUDES.'/site.php';

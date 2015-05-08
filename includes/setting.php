@@ -19,10 +19,12 @@ function photo_box_init_theme_opotion() {
 	register_setting( 'photo_box_settings','photo_box_display');
 	
 	wp_enqueue_style( 'photo-box-style-admin', WP_PB_URL. 'media/admin.css');
-	wp_enqueue_media();
-	wp_register_script('photo-box-upload', WP_PB_URL. 'media/admin.js', array('jquery'), '1.0', true);
-	wp_enqueue_script('photo-box-upload');
-
+	
+	if( preg_match('/options/i',$_SERVER['REQUEST_URI']) ){
+		wp_enqueue_media();
+		wp_register_script('photo-box-upload', WP_PB_URL. 'media/admin.js', array('jquery'), '1.0', true);
+		wp_enqueue_script('photo-box-upload');
+	}
 }
 endif;
 add_action('admin_init', 'photo_box_init_theme_opotion');
