@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: popup, auto popup, slide show popup, image, images, gallery, galleries, photo, photos, picture, pictures, photo gallery, media, jquery colorbox, jquery, colorbox,  photo box, popup colorbox, slide show gallery, responsive popup, plugin, posts
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Photo Box is an advanced plugin with a list of options for gallery. Support popup image in gallery, slide show popup. It is fully responsive popup.
@@ -40,6 +40,9 @@ If any problem occurs, please read [Documents](http://photoboxone.com/category/d
 2. Photo Box - Setting
 
 == Changelog ==
+
+= 1.1.2 =
+* Update core.
 
 = 1.1.1 =
 * Update core.
