@@ -5,7 +5,7 @@ Description: Photo Box is a free plugin with a list of options for gallery. View
 Plugin URI: https://wordpress.org/plugins/photo-box
 Author: PB One 
 Author URI: http://photoboxone.com/
-Version: 1.1.2
+Version: 1.1.2.1
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
