@@ -22,6 +22,9 @@ Photo Box is an advanced plugin with a list of options for gallery. Support popu
 * [Gallery](http://photoboxone.com/gallery/)
 * [Documents](http://photoboxone.com/category/documents/)
 
+= Full Version =
+[Download Now](http://photoboxone.com/download/)
+
 == Installation ==
 #### Thank you for your interest in Photo Box.  
 ### Minimum requirements.  
