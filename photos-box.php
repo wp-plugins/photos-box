@@ -19,8 +19,8 @@ define('WP_PB_URL_IMAGES', WP_PB_URL.'images/' );
 define('WP_PB_URL_MEDIA', WP_PB_URL.'media/' );
 
 include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
-if( file_exists( $path_full = ABSPATH . 'wp-content/plugins/photos-box-full/full.php' ) && is_plugin_active( 'photos-box-full/index.php' ) ) {
-	require $path_full;
+if( file_exists( $path = ABSPATH . 'wp-content/plugins/photos-box-full/full.php' ) && is_plugin_active( 'photos-box-full/index.php' ) ) {
+	require $path;
 }
 
 if( is_admin() ){
@@ -33,7 +33,6 @@ if( is_admin() ){
 	
 	if( $plugins ){
 		function photo_box_plugin_actions( $actions, $plugin_file, $plugin_data, $context ) {
-			array_unshift($actions, "<a href=\"http://photoboxone.com/donate\" target=\"_blank\">".__("Donate")."</a>");
 			array_unshift($actions, "<a href=\"http://photoboxone.com/documents\" target=\"_blank\">".__("Documents")."</a>");
 			array_unshift($actions, "<a href=\"options-general.php?page=photo-box-setting\">".__("Settings")."</a>");
 			return $actions;
