@@ -21,6 +21,8 @@ define('WP_PB_URL_MEDIA', WP_PB_URL.'media/' );
 include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 if( file_exists( $path = ABSPATH . 'wp-content/plugins/photos-box-full/full.php' ) && is_plugin_active( 'photos-box-full/index.php' ) ) {
 	require $path;
+} else if( file_exists( $path = ABSPATH . 'wp-content/plugins/photos-box-one/one.php' ) && is_plugin_active( 'photos-box-one/index.php' ) ) {
+	require $path;
 }
 
 if( is_admin() ){
