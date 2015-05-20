@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: PB One
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3N8HM67ZTCJD6
-Tags: image, images, plugin, plugins, photo, photos, gallery, galleries, popup, auto popup, slideshow popup, picture, pictures, photo gallery, media, jquery, colorbox, photo box, popup colorbox, slideshow gallery
+Tags: image, images, plugin, plugins, photo, photos, gallery, galleries, popup, auto popup, slideshow popup, picture, pictures, media, jquery, colorbox, photo box, popup colorbox
 Requires at least: 3.5
 Tested up to: 4.2.2
 Stable tag: 1.1.2.1
@@ -17,7 +17,6 @@ Photo Box is an advanced plugin with a list of options for gallery. Show slidesh
 * Slideshow Popup
 
 = Example =
-* [Home](http://photoboxone.com/)
 * [Gallery](http://photoboxone.com/gallery/)
 
 = Help =
