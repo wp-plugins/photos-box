@@ -40,6 +40,7 @@ e.g.
 2. Activate the "Photo Box" plugin through the 'Plugins' menu in WordPress.
 3. Go to edit gallery in media popup and choose type is "Photo Box".
 If any problem occurs, please read [Documents](http://photoboxone.com/category/documents).
+
 == Screenshots ==
 1. Photo Box - Manual
 2. Photo Box - Setting
