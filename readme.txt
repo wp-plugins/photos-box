@@ -7,7 +7,7 @@ Tested up to: 4.2.2
 Stable tag: 1.1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Photo Box is show slideshow popup images in gallery. View demo on http://photoboxone.com/gallery/.
+Photo Box is show slideshow popup images in gallery. View demo on photoboxone.com/gallery. 
 
 == Description ==
 = The plugin allows displaying galleries within the following views: =
