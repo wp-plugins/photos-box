@@ -24,7 +24,7 @@ Photo Box is an advanced plugin with a list of options for gallery. Support slid
 * [Support](http://photoboxone.com/contact/)
 
 = Full Version =
-Everyone can [download](http://photoboxone.com/download/) now. Easy use.
+Everyone can [download](http://photoboxone.com/download/) now.
 
 == Installation ==
 #### Thank you for your interest in Photo Box.  
