@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: PB One
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3N8HM67ZTCJD6
-Tags: image, images, plugin, plugins, photo, photos, gallery, galleries, popup, auto popup, slideshow popup, picture, pictures, media, jquery, photo box, popup colorbox, jquery colorbox
+Tags: image, images, photo, photos, popup, auto popup, plugin, plugins, gallery, galleries, slideshow popup, picture, pictures, media, jquery, photo box, popup colorbox, jquery colorbox
 Requires at least: 3.5
 Tested up to: 4.2.2
 Stable tag: 1.1.2.1
