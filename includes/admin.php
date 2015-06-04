@@ -1,6 +1,6 @@
 <?php
 
-defined('ABSPATH') or die;
+defined('ABSPATH') or die('Photo Box');
 
 if( !function_exists('photo_box_gallery_setting') ):
 function photo_box_gallery_setting(){
