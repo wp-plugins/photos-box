@@ -12,6 +12,8 @@ if( !function_exists('photo_box_add_options_page') ){
 			'photo-box-setting',			// The slug by which this menu item is accessible
 			'photo_box_setting_display'	// The name of the function used to display the page content
 		);
+		
+		// when has error 
 	}
 }
 add_action('admin_menu','photo_box_add_options_page');
