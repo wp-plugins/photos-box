@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: PB One
+Contributors: De Mos
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3N8HM67ZTCJD6
 Tags: image, images, photo, photos, popup, auto popup, plugin, plugins, gallery, galleries, slideshow popup, picture, pictures, media, jquery, photo box, popup colorbox, jquery colorbox, auto play
 Requires at least: 3.5
