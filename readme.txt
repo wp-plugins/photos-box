@@ -7,7 +7,6 @@ Tested up to: 4.2.2
 Stable tag: 1.1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Author URI: https://profiles.wordpress.org/demoswebsites/
 Photo Box is an advanced plugin with a list of options for gallery. Support slideshow popup images in gallery. Responsive popup.
 
 == Description ==
