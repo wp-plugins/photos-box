@@ -4,7 +4,7 @@ jQuery(document).ready(function($){
 	
     $(document.body).on('click.tgmOpenMediaManager', '#upload_image_button', function(e){
         e.preventDefault();
-
+		
         if ( tgm_media_frame_img ) {
             tgm_media_frame_img.open();
             return;
@@ -18,9 +18,8 @@ jQuery(document).ready(function($){
             library: {
                 type: 'image'
             },
-
             button: {
-                text:  'Use this image'
+                text: 'Use this image'
             }
         });
 
@@ -36,10 +35,12 @@ jQuery(document).ready(function($){
 	
 	$('#remove_image_button').click(function(e) {
 		e.preventDefault();
+		//console.log(this);
 		$('#photo_box_display_image_id').attr('value','');
 		$('#photo_box_display_image_thumb').html('');
 	});
 	$('#upload_image_button').click(function() {
+		//console.log(this);
 		formfield = jQuery('#photo_box_display_image_id').attr('name');
 		clicked_on_imgbtn = true;
 		tb_show('Add Image', 'media-upload.php?type=image&amp;TB_iframe=true');
