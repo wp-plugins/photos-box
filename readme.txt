@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: De Mos
-Donate link: http://photoboxone.com/donate
+Donate link: http://photoboxone.com/donate/
 Tags: image, images, photo, photos, popup, auto popup, plugin, plugins, gallery, galleries, slideshow popup, picture, pictures, media, jquery, photo box, popup colorbox, jquery colorbox, auto play
 Requires at least: 3.5
 Tested up to: 4.2.2
