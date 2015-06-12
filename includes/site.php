@@ -79,6 +79,7 @@ function photo_box_shortcode($val, $attr){
 			}
 			$output .= '<br style="clear:both;" /></div>';
 		$output .= '</div>';
+		$output .= '<!-- create at photoboxone.com -->';
 	}
 	return $output;
 }
