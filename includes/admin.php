@@ -36,7 +36,7 @@ function photo_box_gallery_setting(){
 			// gallery settings list; $.extend should work as well...
 			_.extend(wp.media.gallery.defaults, {
 				type: 'default',
-				show_title: 1,
+				show_title: 0,
 				slideshow_speed: 2500
 			});
 
