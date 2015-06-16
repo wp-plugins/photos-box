@@ -9,7 +9,7 @@ Tested up to: 4.2.2
 Stable tag: 1.1.2.1
 
 Photo Box is an advanced plugin with a list of options for gallery.
-Support slideshow popup images in gallery. Responsive popup.
+Slideshow popup images in gallery. Responsive popup.
 
 == Description ==
 = The plugin allows displaying galleries within the following views: =
@@ -22,10 +22,10 @@ Support slideshow popup images in gallery. Responsive popup.
 * [Gallery](http://photoboxone.com/gallery/)
 
 = Help =
-* [Documents](http://photoboxone.com/category/documents/)
+* [Documents](http://photoboxone.com/documents/)
 
 = Full Version =
-Everyone can [download](http://photoboxone.com/download/) now.
+Everyone can [download](http://photoboxone.com/ download/) now.
 
 == Installation ==
 #### Thank you for your interest in Photo Box.  
@@ -39,7 +39,7 @@ e.g.
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory.
 2. Activate the "Photo Box" plugin through the 'Plugins' menu in WordPress.
 3. Go to edit gallery in media popup and choose type is "Photo Box".
-If any problem occurs, please read [Documents](http://photoboxone.com/category/documents).
+If any problem occurs, please read [Documents](http://photoboxone.com/documents).
 
 == Screenshots ==
 1. Photo Box - Manual
