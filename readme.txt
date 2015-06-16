@@ -25,7 +25,7 @@ Slideshow popup images in gallery. Responsive popup.
 * [Documents](http://photoboxone.com/documents/)
 
 = Full Version =
-Everyone can [download](http://photoboxone.com/ download/) now.
+Everyone can [download](http://photoboxone.com/download/) now.
 
 == Installation ==
 #### Thank you for your interest in Photo Box.  
