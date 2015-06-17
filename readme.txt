@@ -48,7 +48,7 @@ If any problem occurs, please read [Documents](http://photoboxone.com/documents)
 == Changelog ==
 
 = 1.1.2.1 =
-* Update small code in admin.
+* Update code in admin.
 
 = 1.1.2 =
 * Update core.
