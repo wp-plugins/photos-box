@@ -3,7 +3,7 @@ Contributors: demoswebsites
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: http://photoboxone.com/donate/
-Tags: image, images, photo, photos, popup, auto popup, plugin, plugins, gallery, galleries, slideshow popup, picture, pictures, media, jquery, photo box, popup colorbox, jquery colorbox, auto play, responsive 
+Tags: image, images, photo, photos, popup, auto popup, plugin, plugins, gallery, galleries, slideshow popup, picture, pictures, media, jquery, photo box, popup colorbox, jquery colorbox, auto play, responsive, responsive popup
 Requires at least: 3.5
 Tested up to: 4.2.2
 Stable tag: 1.1.2.2
@@ -18,14 +18,6 @@ Slideshow popup images in gallery. Responsive popup.
 * Popup
 * Slideshow Popup
 
-= Example =
-* [Gallery](http://photoboxone.com/gallery/)
-
-= Help =
-* [Documents](http://photoboxone.com/documents/)
-
-= Full Version =
-Everyone can [download](http://photoboxone.com/download/) now.
 
 == Installation ==
 #### Thank you for your interest in Photo Box.  
