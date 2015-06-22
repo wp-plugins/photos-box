@@ -9,6 +9,8 @@ function photo_box_gallery_setting(){
 	// the "tmpl-" prefix is required,
 	// and your input field should have a data-setting attribute
 	// matching the shortcode name
+	
+	// check options
 	?>
 	<script type="text/html" id="tmpl-gallery-photos-box-setting">
 		<label class="setting">
