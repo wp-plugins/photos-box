@@ -86,7 +86,7 @@ function photo_box_links(){
 	<div class="photo_box_links clearfix">
 		<ul>
 			<li class="first"><a target="_blank" href="http://photoboxone.com/gallery/">Demo</a></li>
-			<li><a target="_blank" href="http://photoboxone.com/category/documents/">Help</a></li>
+			<li><a target="_blank" href="http://photoboxone.com/documents/">Help</a></li>
 			<li><a target="_blank" href="http://photoboxone.com/donate/">Donate</a></li>
 		</ul>
 	</div>
