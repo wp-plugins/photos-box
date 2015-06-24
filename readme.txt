@@ -21,25 +21,14 @@ Slideshow popup images in gallery. Responsive popup.
 Visit [Home page](http://photoboxone.com/)
 
 
-== Example ==
-
+= Example =
 View [Gallery](http://photoboxone.com/gallery)
 
-
-
-== Documents ==
-
-
+= Documents =
 [Documents](http://photoboxone.com/documents)
 
-
-
-== Full Version ==
-
-
+= Full Version =
 [Download Now](http://photoboxone.com/download)
-
-
 
 == Installation ==
 #### Thank you for your interest in Photo Box.  
