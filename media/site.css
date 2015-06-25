@@ -16,3 +16,10 @@
 .gallery-photos-box.gallery-columns-3 .gallery-image-3,
 .gallery-photos-box.gallery-columns-3 .gallery-image-3,
 .gallery-photos-box.gallery-columns-2 .gallery-image-2{ padding-right: 0}
+
+/* use for css3 */
+.gallery-photos-box.style-1 { }
+.gallery-photos-box.style-2 { }
+.gallery-photos-box.style-3 { }
+.gallery-photos-box.style-4 { }
+.gallery-photos-box.style-5 { }
