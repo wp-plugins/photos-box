@@ -24,11 +24,16 @@ Visit [Home page](http://photoboxone.com/)
 = Example =
 View [Gallery](http://photoboxone.com/gallery)
 
-= Documents =
-[Documents](http://photoboxone.com/documents)
-
 = Full Version =
+
+* Responsive Gallery
+* Popup Options
+* Slideshow Options
+* 6 themes popup
+* 36 languages
+* Full Support
 [Download Now](http://photoboxone.com/download)
+
 
 == Installation ==
 #### Thank you for your interest in Photo Box.  
