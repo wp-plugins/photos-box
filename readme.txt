@@ -29,7 +29,7 @@ View [Gallery](http://photoboxone.com/gallery)
 * Responsive Gallery
 * Popup Options
 * Slideshow Options
-* 6 themes popup
+* 5 themes popup
 * 36 languages
 * Full Support
 
