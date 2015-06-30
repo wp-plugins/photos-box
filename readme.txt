@@ -24,7 +24,7 @@ Visit [Home page](http://photoboxone.com/)
 = Example =
 View [Gallery](http://photoboxone.com/gallery)
 
-= Full Version =
+= Full Version views more: =
 
 * Responsive Gallery
 * Popup Options
