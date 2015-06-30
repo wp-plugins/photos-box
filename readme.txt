@@ -30,7 +30,7 @@ View [Gallery](http://photoboxone.com/gallery)
 * Popup Options
 * Slideshow Options
 * 5 themes popup
-* 36 languages
+* 34 languages
 * Full Support
 
 [Download Now](http://photoboxone.com/download)
