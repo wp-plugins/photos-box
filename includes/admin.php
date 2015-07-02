@@ -23,8 +23,8 @@ function photo_box_gallery_setting(){
 		<label class="setting">
 			<span><?php _e('Show Title'); ?></span>
 			<select data-setting="show_title">
-				<option value="0">No</option>
 				<option value="1">Yes</option>
+				<option value="0">No</option>
 			</select>
 		</label>
 		<label class="setting">
