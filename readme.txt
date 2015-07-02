@@ -23,7 +23,8 @@ https://www.youtube.com/watch?v=c0AD4HuDINE
 Visit [Home page](http://photoboxone.com/)
 
 = Example =
-View [Gallery](http://photoboxone.com/gallery)
+
+[Demo](http://demo.photoboxone.com/photo-box-example/)
 
 = Full Version views more: =
 
@@ -33,6 +34,8 @@ View [Gallery](http://photoboxone.com/gallery)
 * 5 themes popup
 * 34 languages
 * Full Support
+
+[Gallery](http://photoboxone.com/gallery)
 
 [Download Now](http://photoboxone.com/download)
 
