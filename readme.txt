@@ -30,8 +30,7 @@ Visit [Home page](http://photoboxone.com/)
 * 34 languages
 * Full Support
 
-[Gallery](http://photoboxone.com/gallery)
-[Download Now](http://photoboxone.com/download)
+View [demo](http://photoboxone.com/gallery) or [download](http://photoboxone.com/download) now.
 
 
 == Installation ==
