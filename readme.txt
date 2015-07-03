@@ -17,6 +17,7 @@ Slideshow popup images in gallery. Responsive popup.
 * Gallery 
 * Popup
 * Slideshow Popup
+
 https://www.youtube.com/watch?v=c0AD4HuDINE
 Visit [Home page](http://photoboxone.com/)
 
@@ -24,6 +25,7 @@ Visit [Home page](http://photoboxone.com/)
 [Gallery](http://photoboxone.com/gallery)
 
 = Full Version views more: =
+
 * Responsive Gallery
 * Popup Options
 * Slideshow Options
