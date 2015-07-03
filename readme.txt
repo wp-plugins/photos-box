@@ -17,25 +17,19 @@ Slideshow popup images in gallery. Responsive popup.
 * Gallery 
 * Popup
 * Slideshow Popup
-
 https://www.youtube.com/watch?v=c0AD4HuDINE
-
 Visit [Home page](http://photoboxone.com/)
 
 = Example =
-
-[Demo](http://demo.photoboxone.com/photo-box-example/)
+[Gallery](http://photoboxone.com/gallery)
 
 = Full Version views more: =
-
 * Responsive Gallery
 * Popup Options
 * Slideshow Options
 * 5 themes popup
 * 34 languages
 * Full Support
-
-[Gallery](http://photoboxone.com/gallery)
 
 [Download Now](http://photoboxone.com/download)
 
