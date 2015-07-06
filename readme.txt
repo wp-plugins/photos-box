@@ -18,8 +18,6 @@ Slideshow popup images in gallery. Responsive popup.
 * Popup
 * Slideshow Popup
 
-https://www.youtube.com/watch?v=c0AD4HuDINE
-
 View [manual](http://photoboxone.com/how-to-use-photo-box)
 
 Visit [Home page](http://photoboxone.com/)
