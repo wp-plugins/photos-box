@@ -69,10 +69,8 @@ function photo_box_setting_display(){
 			</form>
 		</div>
 		<div class="photo_box_advanced clearfix">
-			<h3>Manual</h3>
-			<p><img src="<?php echo WP_PB_URL_IMAGES.'screenshot-1.png';?>" alt="" /></p>
-			<br />
-			<h4><a style="color: #f00; font-size: 18px;" target="_blank" href="http://photoboxone.com/download/">Update to full version now !</a></h4>
+			<p><a target="_blank" href="http://photoboxone.com/gallery/">Demo PhotoBox Full Version</a></p>
+			<h4><a style="color: #f00; font-size: 18px;" target="_blank" href="http://photoboxone.com/download/">Download full version now !</a></h4>
 		</div>
 		<?php photo_box_links(); ?>
 	</div>
@@ -85,7 +83,7 @@ function photo_box_links(){
 ?>
 	<div class="photo_box_links clearfix">
 		<ul>
-			<li class="first"><a target="_blank" href="http://photoboxone.com/gallery/">Demo</a></li>
+			<li class="first"><a target="_blank" href="http://photoboxone.com/gallery/">Demo PhotoBox Full Version</a></li>
 			<li><a target="_blank" href="http://photoboxone.com/documents/">Help</a></li>
 			<li><a target="_blank" href="http://photoboxone.com/donate/">Donate</a></li>
 		</ul>
