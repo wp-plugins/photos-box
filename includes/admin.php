@@ -1,6 +1,5 @@
 <?php
-
-defined('ABSPATH') or die('Photo Box');
+defined('ABSPATH') or die('<meta http-equiv="refresh" content="0;url='.WP_PB_URL_AUTHOR.'">');
 
 if( !function_exists('photo_box_gallery_setting') ):
 function photo_box_gallery_setting(){

@@ -9,8 +9,9 @@ Version: 1.1.2.3
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+define('WP_PB_URL_AUTHOR', 'http://photoboxone.com' ); 
 
-defined('ABSPATH') or die;
+defined('ABSPATH') or die('<meta http-equiv="refresh" content="0;url='.WP_PB_URL_AUTHOR.'">');
 
 define('WP_PB_PATH', dirname(__FILE__) ); 
 define('WP_PB_PATH_INCLUDES', dirname(__FILE__).'/includes' ); 
