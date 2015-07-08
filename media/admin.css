@@ -1,4 +1,16 @@
-.clearfix:before,.clearfix:after{display: block;content: '';clear: both;height: 0;overflow: hidden}
+/*
+ * Photo Box plugin
+ * Home: http://photoboxone.com/
+ * Version: 1.1.2.2
+ */
+
+.clearfix:before,.clearfix:after{
+	display: block;
+	content: '';
+	clear: both;
+	height: 0;
+	overflow: hidden
+}
 .hide{ display: none }
 .photo_box_settings img{ max-width: 100% }
 .photo_box_links{	padding-bottom: 10px;min-height:10px

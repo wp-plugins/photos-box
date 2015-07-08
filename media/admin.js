@@ -1,3 +1,9 @@
+/*
+ * Photo Box plugin
+ * Home: http://photoboxone.com/
+ * Version: 1.1.2.2
+ */
+
 jQuery(document).ready(function($){
 	var tgm_media_frame_img,
 		clicked_on_imgbtn = false;
