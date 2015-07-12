@@ -20,8 +20,6 @@ Slideshow popup images in gallery. Responsive popup.
 
 View [manual](http://photoboxone.com/how-to-use-photo-box)
 
-Visit [home](http://photoboxone.com/)
-
 = Full Version views more: =
 
 * Responsive Gallery
