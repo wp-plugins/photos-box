@@ -8,7 +8,7 @@
 
 .gallery-photos-box .gallery-row{ padding: 0 0 15px }
 .gallery-photos-box .gallery-image{ float:left; width: 200px; padding-right: 10px; box-sizing: border-box; overflow: hidden; text-align: center;  }
-.gallery-photos-box .gallery-image img{ max-width: 100%; opacity:0.8; transition: opacity .5s; -webkit-transition: opacity .5s; /*-webkit-border-radius: 10px; border-radius: 10px; overflow: hidden; border: 2px solid #fafafa; */ }
+.gallery-photos-box .gallery-image img{ max-width: 100%; opacity:0.8; transition: opacity .5s; -webkit-transition: opacity .5s; }
 .gallery-photos-box .gallery-image a:hover img{ opacity:1;  }
 .gallery-photos-box .gallery-image span.image_title{ display: block; padding-top: 10px; }
 

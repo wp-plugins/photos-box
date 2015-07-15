@@ -1,9 +1,8 @@
 /*
  * Photo Box plugin
- * Home: http://photoboxone.com/
- * Version: 1.1.2.2
+ * Author Uri: http://photoboxone.com/
  */
-
+ 
 jQuery(document).ready(function($){
 	var tgm_media_frame_img,
 		clicked_on_imgbtn = false;
