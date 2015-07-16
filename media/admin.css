@@ -10,13 +10,20 @@
 	height: 0;
 	overflow: hidden
 }
-.hide{ display: none }
-.photo_box_settings img{ max-width: 100% }
-.photo_box_links{	padding-bottom: 10px;min-height:10px
+.hide{
+	display: none
+}
+.photo_box_settings img{
+	max-width: 100%;
+}
+.photo_box_links{	padding-bottom: 10px;
+	min-height: 10px;
+	height: 10px;
+	height: auto !important;	
 }
 	.photo_box_links li{		display:block;		float:left;		padding-right: 15px;		line-height: 20px
 	}
 		.photo_box_links li img{
-			vertical-align: middle; max-width:100%
+			vertical-align: middle;
 		}
 
