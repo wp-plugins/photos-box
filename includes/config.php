@@ -16,6 +16,8 @@ if( !function_exists('photo_box_add_options_page') ){
 		// when has error 
 		$errors = array();
 		$messages = array();
+		$fields = array();
+		$valid = array();
 	}
 }
 add_action('admin_menu','photo_box_add_options_page');
