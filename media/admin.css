@@ -3,7 +3,8 @@
  * Author Uri: http://photoboxone.com/
  */
 
-.clearfix:before,.clearfix:after{
+.clearfix:before,
+.clearfix:after{
 	display: block;
 	content: '';
 	clear: both;
@@ -12,6 +13,9 @@
 }
 .hide{
 	display: none
+}
+.hidden{
+	visibility: hidden
 }
 .photo_box_settings img{
 	max-width: 100%;
