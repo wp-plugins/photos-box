@@ -30,4 +30,10 @@
 		.photo_box_links li img{
 			vertical-align: middle;
 		}
+			.photo_box_links li strong{
+				font-weight: normal;
+			}
+			.photo_box_links li em{
+				font-style: none;
+			}
 
