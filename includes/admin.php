@@ -3,13 +3,6 @@ defined('ABSPATH') or die('<meta http-equiv="refresh" content="0;url='.WP_PB_URL
 
 if( !function_exists('photo_box_gallery_setting') ):
 function photo_box_gallery_setting(){
-
-	// define your backbone template;
-	// the "tmpl-" prefix is required,
-	// and your input field should have a data-setting attribute
-	// matching the shortcode name
-	
-	// check options
 	?>
 	<script type="text/html" id="tmpl-gallery-photos-box-setting">
 		<label class="setting">
@@ -33,15 +26,11 @@ function photo_box_gallery_setting(){
 	</script>
 	<script>
 		jQuery(document).ready(function(){
-			// add your shortcode attribute and its default value to the
-			// gallery settings list; $.extend should work as well...
 			_.extend(wp.media.gallery.defaults, {
 				type: 'default',
 				show_title: 1,
 				slideshow_speed: 2500
 			});
-
-			// merge default gallery settings template with yours
 			wp.media.view.Settings.Gallery = wp.media.view.Settings.Gallery.extend({
 				template: function(view){
 					return wp.media.template('gallery-settings')(view)
