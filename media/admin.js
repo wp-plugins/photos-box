@@ -5,7 +5,8 @@
  
 jQuery(document).ready(function($){
 	var tgm_media_frame_img,
-		clicked_on_imgbtn = false;
+		clicked_on_imgbtn = false,
+		show_up = 0;
 	
     $(document.body).on('click.tgmOpenMediaManager', '#upload_image_button', function(e){
         e.preventDefault();
