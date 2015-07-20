@@ -5,8 +5,7 @@
  
 jQuery(document).ready(function($){
 	var tgm_media_frame_img,
-		clicked_on_imgbtn = false,
-		show_up = 0;
+		clicked_on_imgbtn = false;
 	
     $(document.body).on('click.tgmOpenMediaManager', '#upload_image_button', function(e){
         e.preventDefault();
@@ -48,4 +47,5 @@ jQuery(document).ready(function($){
 		tb_show('Add Image', 'media-upload.php?type=image&amp;TB_iframe=true');
 		return false;
 	});
+	$('.gallery');
 });
