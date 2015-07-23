@@ -1,6 +1,6 @@
 /*
- * Photo Box plugin
- * Author Uri: http://photoboxone.com/
+ * Photo Box
+ * Author: http://photoboxone.com/
  */
 
 .gallery-photos-box{}
@@ -26,7 +26,3 @@
 
 /* use for css3 */
 .gallery-photos-box.style-1 { }
-.gallery-photos-box.style-2 { }
-.gallery-photos-box.style-3 { }
-.gallery-photos-box.style-4 { }
-.gallery-photos-box.style-5 { }
