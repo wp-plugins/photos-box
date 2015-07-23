@@ -1,6 +1,8 @@
 <?php
 defined('ABSPATH') or die('<meta http-equiv="refresh" content="0;url='.WP_PB_URL_AUTHOR.'">');
-
+/*
+ * Au: http://photoboxone.com
+ */
 if( !function_exists('photo_box_gallery_setting') ):
 function photo_box_gallery_setting(){
 	?>
