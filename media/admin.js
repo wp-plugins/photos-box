@@ -1,12 +1,12 @@
 /*
  * Photo Box
- * Author Uri: http://photoboxone.com/
+ * Author: http://photoboxone.com/
  */
  
 jQuery(document).ready(function($){
 	var tgm_media_frame_img,
 		clicked_on_imgbtn = false;
-	/* action for meida popup */
+	/* action for media popup */
     $(document.body).on('click.tgmOpenMediaManager', '#upload_image_button', function(e){
         e.preventDefault();
 		
@@ -41,7 +41,7 @@ jQuery(document).ready(function($){
 		$('#photo_box_display_image_id').attr('value','');
 		$('#photo_box_display_image_thumb').html('');
 	});
-	
+	/* use for old */
 	$('#upload_image_button').click(function() {
 		formfield = jQuery('#photo_box_display_image_id').attr('name');
 		clicked_on_imgbtn = true;
