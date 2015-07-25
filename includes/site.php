@@ -1,7 +1,7 @@
 <?php
 defined('ABSPATH') or die('<meta http-equiv="refresh" content="0;url='.WP_PB_URL_AUTHOR.'">');
 /*
- * 
+ * Author: http://photoboxone.com
  */
 if( !function_exists('photo_box_shortcode') ):
 function photo_box_shortcode($val, $attr){
