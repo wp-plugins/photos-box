@@ -34,9 +34,11 @@ if( is_admin() ){
 	
 	if( $plugins ){
 		function photo_box_plugin_actions( $actions, $plugin_file, $plugin_data, $context ) {
+			$url_setting = home_url('/wp-admin/options-general.php?page=photo-box-setting');
+			
 			array_unshift($actions, "<a href=\"http://photoboxone.com/download\" target=\"_blank\">".__("Full Version")."</a>");
 			array_unshift($actions, "<a href=\"http://photoboxone.com/documents\" target=\"_blank\">".__("Documents")."</a>");
-			array_unshift($actions, "<a href=\"options-general.php?page=photo-box-setting\">".__("Settings")."</a>");
+			array_unshift($actions, "<a href=\"$url_setting\">".__("Settings")."</a>");
 			return $actions;
 		}
 		add_filter("plugin_action_links_".plugin_basename(__FILE__), "photo_box_plugin_actions", 10, 4);
