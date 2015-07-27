@@ -5,8 +5,8 @@ License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: http://photoboxone.com/donate/
 Tags: photo, photos, image, images, popup, auto popup, plugin, plugins, gallery, galleries, slideshow popup, picture, pictures, media, jquery, photo box, popup colorbox, jquery colorbox, auto play, responsive, responsive popup, photobox, post, posts, page, pages
 Requires at least: 3.5
-Tested up to: 4.2.2
-Stable tag: 1.1.3
+Tested up to: 4.2.3
+Stable tag: 1.1.3.1
 
 Photo Box is an advanced plugin with a list of options for gallery.
 Slideshow popup images in gallery. Responsive popup.
@@ -52,17 +52,8 @@ If any problem occurs, please read [Documents](http://photoboxone.com/documents)
 
 == Changelog ==
 
-= 1.1.3 =
-* Update final version.
-
-= 1.1.2.3 =
-* Update css in site.
-
-= 1.1.2.2 =
-* Update code in admin.
-
-= 1.1.2.1 =
-* Update code in admin.
+= 1.1.3.1 =
+* Fix error wp_enqueue_style, wp_enqueue_script.
 
 = 1.1.2 =
 * Update core.

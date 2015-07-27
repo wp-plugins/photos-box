@@ -95,15 +95,17 @@ function photo_box_setup() {
 		'disable_style'	=> 0,
 	), (array)get_option('photo_box_display')));
 	
+	echo '<link rel="photo box" href="http://photoboxone.com/" title="Photo Box" />'."\n";
+	
 	// load script jquery colorbox
-	wp_enqueue_style( 'photo-box-style', WP_PB_URL. 'media/colorbox.css');
+	echo '<link id="photo-box-style" rel="stylesheet" href="'.WP_PB_URL. 'media/colorbox.css" />'."\n";
 	
 	if( $disable_style == 0 )
-		wp_enqueue_style( 'photo-box-style-site', WP_PB_URL. 'media/site.css');
-	wp_enqueue_script( 'photo-box-script', WP_PB_URL. 'media/jquery.colorbox-min.js', array('jquery'), '' , false );
+		echo '<link id="photo-box-style-site" rel="stylesheet" href="'.WP_PB_URL. 'media/site.css" />'."\n";
 }
 endif; // main_setup
-add_action( 'after_setup_theme', 'photo_box_setup' );
+//add_action( 'after_setup_theme', 'photo_box_setup' );
+add_action( 'wp_head', 'photo_box_setup' );
 
 if ( ! function_exists( 'photo_box_setup_colorbox' ) ) :
 function photo_box_setup_colorbox() {
@@ -114,6 +116,7 @@ function photo_box_setup_colorbox() {
 	), (array)get_option('photo_box_display')));	
 ?>
 <!-- Photo Box - Wordpress Plugins at http://photoboxone.com -->
+<script id="photo-box-script" type="text/javascript" src="<?php echo WP_PB_URL. 'media/jquery.colorbox-min.js';?>"></script>
 <script type="text/javascript">/* <![CDATA[ */
 (function($){
 		$('.gallery-photo-box').each(function(){
@@ -168,8 +171,3 @@ function photo_box_setup_colorbox() {
 }
 endif;
 add_action('print_footer_scripts', 'photo_box_setup_colorbox', 99 );
-
-function photo_box_wp_head(){
-	echo '<link rel="photo-box-plugin" href="http://photoboxone.com/" title="Photo Box plugin - Wordpress" />'."\n";
-}
-add_action('wp_head', 'photo_box_wp_head');
