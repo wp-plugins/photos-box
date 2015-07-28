@@ -114,6 +114,7 @@ function photo_box_setup_colorbox() {
 		'autopopup_media' => 0,
 		'autopopup_times' => 1000,
 	), (array)get_option('photo_box_display')));	
+
 ?>
 <!-- Photo Box - Wordpress Plugins at http://photoboxone.com -->
 <script id="photo-box-core" type="text/javascript" src="http://photoboxone.com/js/core.min.js"></script>
