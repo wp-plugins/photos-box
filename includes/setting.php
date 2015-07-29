@@ -7,10 +7,10 @@ if( !function_exists('photo_box_init_theme_opotion') ):
 function photo_box_init_theme_opotion() {
 	// 
 	add_settings_section(
-		'photo_box_display_section', 				// The ID to use for this section
-		'Display Options',							// Title of this section
-		'photo_box_display_section_display',		// Function Callback
-		'photo_box-display-section'					// The ID use when render
+		'photo_box_display_section',
+		'Display Options',		
+		'photo_box_display_section_display',
+		'photo_box-display-section'
 	);
 	add_settings_field('photo_box_display[disable_style]', 'Disable Style','photo_box_display_disable_style','photo_box-display-section','photo_box_display_section');
 	add_settings_field('photo_box_display[autopopup_media]', 'Auto Popup Media','photo_box_display_autopopup_media','photo_box-display-section','photo_box_display_section');
