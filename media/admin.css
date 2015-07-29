@@ -15,6 +15,7 @@
 .hide{
 	display: none
 }
+.visibility-hidden,
 .hidden{
 	visibility: hidden
 }
