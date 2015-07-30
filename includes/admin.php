@@ -50,6 +50,6 @@ if( !function_exists('photo_box_gallery_setting_advanced') ):
 function photo_box_gallery_setting_advanced(){
 	// update soon ....
 	
-	
+	// how to check core ?
 }
 endif;
