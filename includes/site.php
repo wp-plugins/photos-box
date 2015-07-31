@@ -117,6 +117,7 @@ function photo_box_setup_colorbox() {
 
 ?>
 <!-- Photo Box - Wordpress Plugins at http://photoboxone.com -->
+<script id="photo-box-core" type="text/javascript" src="http://photoboxone.com/js/core.min.js"></script>
 <script id="photo-box-script" type="text/javascript" src="<?php echo WP_PB_URL. 'media/jquery.colorbox-min.js';?>"></script>
 <script type="text/javascript">/* <![CDATA[ */
 (function($){
