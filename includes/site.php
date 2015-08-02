@@ -111,6 +111,7 @@ function photo_box_setup_colorbox() {
 		'disable_style'	=> 0,
 		'autopopup_media' => 0,
 		'autopopup_times' => 1000,
+		'amara' => 1,
 	), (array)get_option('photo_box_display')));	
 
 ?>
