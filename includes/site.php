@@ -102,7 +102,6 @@ function photo_box_setup() {
 		echo '<link id="photo-box-style-site" rel="stylesheet" href="'.WP_PB_URL. 'media/site.css" />'."\n";
 }
 endif; // main_setup
-//add_action( 'after_setup_theme', 'photo_box_setup' );
 add_action( 'wp_head', 'photo_box_setup' );
 
 if ( ! function_exists( 'photo_box_setup_colorbox' ) ) :
