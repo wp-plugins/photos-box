@@ -49,7 +49,8 @@ add_action( 'print_media_templates', 'photo_box_gallery_setting' );
 if( !function_exists('photo_box_gallery_setting_advanced') ):
 function photo_box_gallery_setting_advanced(){
 	// update soon ....
-	
+	$array = '';
+	$errors = '';
 	// how to check core ?
 }
 endif;
