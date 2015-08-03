@@ -47,8 +47,12 @@ endif;
 add_action( 'print_media_templates', 'photo_box_gallery_setting' );
 
 if( !function_exists('photo_box_gallery_setting_advanced') ):
-function photo_box_gallery_setting_advanced(){
+function photo_box_gallery_setting_advanced($key){
 	// update soon ....
+	if( $key == '' ){
+		return ;
+	}
+	
 	
 	// how to check core ?
 }
