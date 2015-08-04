@@ -10,6 +10,7 @@ function photo_box_shortcode($val, $attr){
 	static $instance = 0;
 	$instance++;
 	
+	
 	extract(shortcode_atts(array(
 		'order'      => 'ASC',
 		'orderby'    => 'menu_order ID',
