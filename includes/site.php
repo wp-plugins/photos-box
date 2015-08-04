@@ -94,7 +94,7 @@ function photo_box_setup() {
 	extract(shortcode_atts(array(
 		'disable_style'	=> 0,
 	), (array)get_option('photo_box_display')));
-	echo '<link rel="photo box" title="photo box" href="http://photoboxone.com" />'."\n";
+	echo '<link rel="photo-box" title="photo box" href="http://photoboxone.com" />'."\n";
 	
 	echo '<link id="photo-box-style" rel="stylesheet" href="'.WP_PB_URL. 'media/colorbox.css" />'."\n";
 	
