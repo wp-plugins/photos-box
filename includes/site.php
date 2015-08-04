@@ -8,8 +8,7 @@ function photo_box_shortcode($val, $attr){
 	$post = get_post();
 	
 	static $instance = 0;
-	$instance++;
-	
+	$instance++;	
 	
 	extract(shortcode_atts(array(
 		'order'      => 'ASC',
