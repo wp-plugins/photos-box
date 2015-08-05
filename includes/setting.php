@@ -34,13 +34,13 @@ add_action('admin_init', 'photo_box_init_theme_opotion');
 /* CALLBACK
 ------------------------------------------------------*/
 if( !function_exists('photo_box_setting_display') ):
-function photo_box_setting_display(){ 
+function photo_box_setting_display(){
+	
 	extract(shortcode_atts(array(
 		'disable_style'	=> 0,
 		'autopopup_media' => 0,
 		'autopopup_times' => 1000,
-	), (array)get_option('photo_box_display')));
-	
+	), (array)get_option('photo_box_display')));	
 	
 ?>
 	<div class="wrap photo_box_settings clearfix">
