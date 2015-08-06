@@ -9,7 +9,7 @@ jQuery(document).ready(function($){
 	/* action for media popup */
     $(document.body).on('click.tgmOpenMediaManager', '#upload_image_button', function(e){
         e.preventDefault();
-		//console.log('');
+		//console.log(this);
         if ( tgm_media_frame_img ) {
             tgm_media_frame_img.open();
             return;
