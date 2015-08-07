@@ -89,7 +89,7 @@ endif;
 add_filter('post_gallery', 'photo_box_shortcode', 10, 3);
 
 /*
- * 
+ * Photo
  */
 if ( ! function_exists( 'photo_box_setup' ) ) :
 function photo_box_setup() {
