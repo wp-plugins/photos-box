@@ -21,7 +21,7 @@ function photo_box_gallery_setting(){
 		</label>
 		<label class="setting">
 			<span><?php _e('Slideshow Speed'); ?></span>
-			<input data-setting="slideshow_speed" type="text" value="2500" style="width:100px;"/>
+			<input data-setting="slideshow_speed" type="text" value="2500" style="width:100px; "/>
 		</label>
 	</script>
 	<script>
