@@ -33,6 +33,7 @@ if( is_admin() ){
 	$options = preg_match('/options/i',$_SERVER['REQUEST_URI']);
 	
 	if( $plugins ){
+		/* links in plugins*/
 		function photo_box_plugin_actions( $actions, $plugin_file, $plugin_data, $context ) {
 			$url_setting = home_url('/wp-admin/options-general.php?page=photo-box-setting');
 			
@@ -41,6 +42,7 @@ if( is_admin() ){
 			array_unshift($actions, "<a href=\"$url_setting\">".__("Settings")."</a>");
 			return $actions;
 		}
+		
 		add_filter("plugin_action_links_".plugin_basename(__FILE__), "photo_box_plugin_actions", 10, 4);
 	}
 	
