@@ -15,7 +15,7 @@ if( !function_exists('photo_box_add_options_page') ){
 			'photo-box-setting',
 			'photo_box_setting_display'
 		);
-		$errors = array();
+		$errors = array('type' => 0 );
 		$json = array('data'=>'');
 		$messages = array( 'success'=> true, 'message' => '' );
 	}
