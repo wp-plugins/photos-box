@@ -11,7 +11,7 @@
 	height: 0;
 	overflow: hidden
 }
-.private-hidden,
+/*.private-hidden,*/
 .show-on-mobile,
 .hide{
 	display: none
