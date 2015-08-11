@@ -28,8 +28,7 @@ function photo_box_shortcode($val, $attr){
 		'type' => '',
 		'slideshow_speed' => 2500,
 		'slide_style' => 'none',
-		'slide_style_pre' => 'ani',
-		'slide_style_aft' => 'kae',
+		'slide_style_pre' => '',
 	), $attr));
 	
 	if( $type != 'photosbox' ) return '';
