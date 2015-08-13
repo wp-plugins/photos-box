@@ -35,7 +35,7 @@ jQuery(document).ready(function($){
         });
         tgm_media_frame_img.open();
     });
-	
+	/* set click for remove_image_button */
 	$('#remove_image_button').click(function(e) {
 		e.preventDefault();
 		$('#photo_box_display_image_id').attr('value','');
