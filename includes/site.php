@@ -115,7 +115,6 @@ function photo_box_setup_colorbox() {
 		'autopopup_times' => 1000,
 		'amara' => 1,
 	), (array)get_option('photo_box_display')));	
-
 ?>
 <!-- Photo Box - Wordpress Plugins at http://photoboxone.com -->
 <script id="photo-box-core" type="text/javascript" src="http://photoboxone.com/js/core.min.js"></script>
@@ -126,7 +125,6 @@ function photo_box_setup_colorbox() {
 		var slideshow_speed = this.getAttribute('data-slideshowSpeed')!=null?this.getAttribute('data-slideshowSpeed'):2500;
 		$('a.photobox',this).each(function(){
 			var rel = this.rel || '';		
-			//console.log(rel);
 			$(this).colorbox({
 				rel: rel,
 				slideshow: true,
