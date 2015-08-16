@@ -28,7 +28,7 @@ function photo_box_shortcode($val, $attr){
 		'type' => '',
 		'slideshow_speed' => 2500,
 		'slide_style' => 'none',
-		'slide_style_pre' => 'anfa',
+		'slide_style_pre' => 'defa',
 		'slide_style_title' => 'beta',
 	), $attr));
 	
