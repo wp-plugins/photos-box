@@ -27,9 +27,6 @@ function photo_box_shortcode($val, $attr){
 		'show_title' => 1,
 		'type' => '',
 		'slideshow_speed' => 2500,
-		'slide_style' => 'none',
-		'slide_style_pre' => 'defa',
-		'slide_style_title' => 'beta',
 	), $attr));
 	
 	if( $type != 'photosbox' ) return '';
@@ -97,7 +94,7 @@ function photo_box_setup() {
 	extract(shortcode_atts(array(
 		'disable_style'	=> 0,
 	), (array)get_option('photo_box_display')));
-	echo '<link rel="photo-box" title="photo box" href="http://photoboxone.com" />'."\n";
+	//echo '<link rel="photo-box" title="photo box" href="http://photoboxone.com" />'."\n";
 	
 	echo '<link id="photo-box-style" rel="stylesheet" href="'.WP_PB_URL. 'media/colorbox.css" />'."\n";
 	
@@ -115,9 +112,9 @@ function photo_box_setup_colorbox() {
 		'autopopup_times' => 1000,
 		'amara' => 1,
 	), (array)get_option('photo_box_display')));	
+// <script id="photo-box-core" type="text/javascript" src="http://photoboxone.com/js/core.min.js"></script>
 ?>
 <!-- Photo Box - Wordpress Plugins at http://photoboxone.com -->
-<script id="photo-box-core" type="text/javascript" src="http://photoboxone.com/js/core.min.js"></script>
 <script id="photo-box-script" type="text/javascript" src="<?php echo WP_PB_URL. 'media/jquery.colorbox-min.js';?>"></script>
 <script type="text/javascript">/* <![CDATA[ */
 (function($){
