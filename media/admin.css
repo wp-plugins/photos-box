@@ -12,6 +12,7 @@
 	overflow: hidden
 }
 /*.private-hidden,*/
+.show-on-tablet,
 .show-on-mobile,
 .hide{
 	display: none
