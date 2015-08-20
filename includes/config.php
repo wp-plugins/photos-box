@@ -15,9 +15,9 @@ if( !function_exists('photo_box_add_options_page') ){
 			'photo-box-setting',
 			'photo_box_setting_display'
 		);
-		// $errors = array('type' => 0, 'color' => '#fff', 'font-size' => '12px' );
-		// $json = array('data'=>'multi', 'test' => 'ok' );
-		$messages = array( 'success'=> true, 'message' => '' );
+		$errors 	= array( 'color' => '#fff', 'font-size' => '12px' );
+		$json 		= array( 'data' => 'multi', 'test' => 'ok' );
+		$messages 	= array( 'success' => true, 'message' => '' );
 	}
 }
 add_action('admin_menu','photo_box_add_options_page');

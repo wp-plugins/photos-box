@@ -16,7 +16,7 @@ function photo_box_init_theme_opotion() {
 	add_settings_field('photo_box_display[autopopup_media]', 'Auto Popup Media','photo_box_display_autopopup_media','photo_box-display-section','photo_box_display_section');
 	add_settings_field('photo_box_display[autopopup_times]', 'Auto Popup Times','photo_box_display_autopopup_times','photo_box-display-section','photo_box_display_section');
 	add_settings_field('photo_box_display[autohide]', 'Auto Hide','photo_box_display_autohide','photo_box-display-section','photo_box_display_section');
-	//add_settings_field('photo_box_display[custom_lang]', 'Custom Lang','photo_box_display_custom_lang','photo_box-display-section','photo_box_display_section');
+	add_settings_field('photo_box_display[custom_lang]', 'Custom Lang','photo_box_display_custom_lang','photo_box-display-section','photo_box_display_section');
 	
 	register_setting( 'photo_box_settings','photo_box_display');
 	
@@ -67,6 +67,7 @@ function photo_box_setting_display(){
 					<label for="photo_box_display_autopopup_times">Auto popup times</label>
 					<input value="<?php echo $autopopup_times;?>" type="text" name="photo_box_display[autopopup_times]" id="photo_box_display_autopopup_times" />
 				</p>
+				<input value="<?php echo $autohide;?>" type="hidden" name="photo_box_display[autohide]" id="photo_box_display_autohide" />
 				<?php submit_button(); ?>
 			</form>
 		</div>
