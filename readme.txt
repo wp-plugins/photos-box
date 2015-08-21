@@ -30,6 +30,8 @@ View [manual](http://photoboxone.com/how-to-use-photo-box)
 
 View [demo](http://photoboxone.com/gallery) or [download](http://photoboxone.com/download) now.
 
+Thanks.
+PB One
 
 == Installation ==
 #### Thank you for your interest in Photo Box.  
