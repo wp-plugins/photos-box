@@ -3,13 +3,12 @@ Contributors: demoswebsites
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: http://photoboxone.com/donate/
-Tags: photo , photos, image, images, popup, auto popup, plugin, plugins, gallery, galleries, slideshow popup, picture, pictures, media, jquery, photo box, popup colorbox, jquery colorbox, auto play, responsive, responsive popup, photobox, post, posts, page, pages
+Tags: photo, photos, image, images, popup, auto popup, plugin, plugins, gallery, galleries, slideshow popup, picture, pictures, media, jquery, photo box, popup colorbox, jquery colorbox, auto play, responsive, responsive popup, photobox, post, posts, page, pages
 Requires at least: 3.5
 Tested up to: 4.3
 Stable tag: 1.1.4
 
-Photo Box is an advanced plugin with a list of options for gallery.
-Slideshow popup images in gallery. Responsive popup.
+Photo Box is an advanced plugin with a list of options for gallery. Slideshow popup images in gallery. Responsive popup.
 
 == Description ==
 = The plugin allows displaying galleries within the following views: =
