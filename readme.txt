@@ -3,7 +3,7 @@ Contributors: demoswebsites
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: http://photoboxone.com/donate/
-Tags: photo, photos, image, images, popup, auto popup, plugin, plugins, gallery, galleries, slideshow popup, picture, pictures, media, jquery, photo box, popup colorbox, jquery colorbox, auto play, responsive, responsive popup, photobox, post, posts, page, pages
+Tags: photo, image, photos, images, popup, auto popup, plugin, plugins, gallery, galleries, slideshow popup, picture, pictures, media, jquery, photo box, jquery colorbox, auto play, responsive, responsive popup, photobox, post, posts, page, pages
 Requires at least: 3.5
 Tested up to: 4.3
 Stable tag: 1.1.4
