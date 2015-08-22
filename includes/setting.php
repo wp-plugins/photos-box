@@ -41,6 +41,7 @@ function photo_box_setting_display(){
 		'autopopup_media' => 0,
 		'autopopup_times' => 1000,
 		'autohide' => 0,
+		'custom_lang' => '',
 	), (array)get_option('photo_box_display')));	
 	
 ?>
