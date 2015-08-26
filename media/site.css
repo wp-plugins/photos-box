@@ -26,8 +26,11 @@
 
 /* use for development */
 .gallery-photos-box.style-1 { }
-.gallery-photos-box.style-1 .animate-1{ }
+.gallery-photos-box.style-1 .animate-1{ left: -100% }
 .gallery-photos-box.style-1 .animate-1 img{ }
 .gallery-photos-box.style-1 .animate-1:hover img{ }
+.gallery-photos-box.style-1 .animate-2{ }
+.gallery-photos-box.style-1 .animate-2 img{ }
+.gallery-photos-box.style-1 .animate-2:hover img{ }
 .gallery-photos-box.style-2 { }
 .gallery-photos-box.style-3 { }
