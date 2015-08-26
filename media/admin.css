@@ -24,6 +24,9 @@
 .photo_box_settings img{
 	max-width: 100%;
 }
+.photo_box_settings i{
+	font-style: italic;
+}
 .photo_box_links{	padding-bottom: 10px;
 	min-height: 10px;
 	height: 10px;
