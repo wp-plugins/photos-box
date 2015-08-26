@@ -49,4 +49,8 @@ jQuery(document).ready(function($){
 		return false;
 	});
 	
+	function setup_future(){
+		// abs;
+	};
+	
 });
