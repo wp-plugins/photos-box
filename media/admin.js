@@ -49,8 +49,9 @@ jQuery(document).ready(function($){
 		return false;
 	});
 	
-	function setup_future(){
+	function setup(){
 		// abs;
+		$('body').addClass('loaded');
 	};
 	
 });
