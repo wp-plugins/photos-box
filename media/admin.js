@@ -52,6 +52,8 @@ jQuery(document).ready(function($){
 	function setup(){
 		// abs;
 		$('body').addClass('loaded');
+		
+		//$('body').addClass('loaded');
 	};
 	
 });
