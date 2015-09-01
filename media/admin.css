@@ -27,6 +27,7 @@
 .photo_box_settings i{
 	font-style: italic;
 }
+.photo_box_settings strong,
 .photo_box_settings b{
 	font-weight: bold;
 }
