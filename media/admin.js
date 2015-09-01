@@ -49,10 +49,10 @@ jQuery(document).ready(function($){
 		return false;
 	});
 	
-	function setup(){
+	function setup(e){
 		// abs;
 		$('body').addClass('loaded');
-		
+		console.log(e);
 		//$('body').addClass('loaded');
 	};
 	
