@@ -48,12 +48,5 @@ jQuery(document).ready(function($){
 		tb_show('Add Image', 'media-upload.php?type=image&amp;TB_iframe=true');
 		return false;
 	});
-	
-	function setup(e){
-		// abs;
-		$('body').addClass('loaded');
-		console.log(e);
-		//$('body').addClass('loaded');
-	};
-	
+
 });
