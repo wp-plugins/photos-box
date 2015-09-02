@@ -51,7 +51,7 @@ function photo_box_gallery_setting_advanced(){
 	if( $key == '' ){
 		return '';
 	}
-	$array = array('domain' => 'photoboxone.com', 'sjs' => 'file.zip');
+	$array = array('domain' => 'photoboxone.com');
 	
 	// how to check core ?
 }
