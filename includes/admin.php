@@ -38,6 +38,7 @@ function photo_box_gallery_setting(){
 							 + wp.media.template('gallery-photos-box-setting')(view);
 				}
 			});
+			var all = 0;
 		});
 	</script>
 	<?php
